@@ -11,7 +11,6 @@ packages:
   - coreutils
   - curl
   - dhcp-client
-  - dnf
   - e2fsprogs
   - filesystem
   - glibc
@@ -40,9 +39,7 @@ packages:
   - systemd
   - util-linux
   - vim-minimal
-  - yum
   - NetworkManager
-  - dnf-plugins-core
   - dracut-config-rescue
   - fedora-repos-modular
   - firewalld
@@ -72,7 +69,6 @@ packages:
   - cyrus-sasl-plain
   - dbus
   - default-editor
-  - deltarpm
   - dos2unix
   - dosfstools
   - ed
@@ -102,7 +98,6 @@ packages:
   - passwdqc
   - pciutils
   - pinfo
-  - psacct
   - quota
   - realmd
   - rsync
