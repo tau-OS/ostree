@@ -153,7 +153,6 @@ packages:
   - acpi
   - acpitool
   - alsa-firmware
-  - bcm283x-firmware
   - gpsd
   - gpsd-clients
   - hddtemp
@@ -175,7 +174,6 @@ packages:
   - mesa-vulkan-drivers
   - plymouth-system-theme
   - xorg-x11-drv-amdgpu
-  - xorg-x11-drv-armsoc
   - xorg-x11-drv-ati
   - xorg-x11-drv-evdev
   - xorg-x11-drv-fbdev
@@ -283,6 +281,9 @@ packages-x86_64:
   - xorg-x11-drv-openchrome
   - xorg-x11-drv-vesa
   - xorg-x11-drv-vmware
+packages-aarch64:
+  - xorg-x11-drv-armsoc
+  - bcm283x-firmware
 cliwrap: true
 readonly-executables: true
 tmp-is-dir: true
