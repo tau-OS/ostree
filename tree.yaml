@@ -2,6 +2,7 @@ ref: tau/desktop/${basearch}/stable
 repos:
   - fedora
   - updates
+  - innatical_tau
 boot-location: modules
 releasever: 35
 packages:
