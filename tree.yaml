@@ -270,6 +270,8 @@ packages:
   - xdg-user-dirs-gtk
   - gnome-tweaks
   - libreoffice
+  - tau-logos
+  - tau-logos-httpd
 packages-x86_64:
   - mcelog
   - microcode_ctl
