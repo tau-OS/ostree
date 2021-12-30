@@ -6,6 +6,8 @@ repos:
 boot-location: modules
 releasever: 35
 packages:
+  - tau-logos
+  - tau-logos-httpd
   - kernel
   - kernel-modules-extra
   - audit
@@ -271,8 +273,6 @@ packages:
   - xdg-user-dirs-gtk
   - gnome-tweaks
   - libreoffice
-  - tau-logos
-  - tau-logos-httpd
 packages-x86_64:
   - mcelog
   - microcode_ctl
