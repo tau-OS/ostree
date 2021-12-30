@@ -5,6 +5,8 @@ repos:
 boot-location: modules
 releasever: 35
 packages:
+  - kernel
+  - kernel-modules-extra
   - audit
   - basesystem
   - bash
