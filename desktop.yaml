@@ -1,0 +1,10 @@
+ref: tau/desktop/${basearch}/stable
+repos:
+  - fedora
+  - updates
+  - innatical_tau
+include:
+  - base
+  - hardware-support
+  - xorg
+  - gnome
