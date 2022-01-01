@@ -6,6 +6,7 @@ releasever: 35
 packages:
   - tau-release
   - tau-release-identity
+  - tau-release-ostree-desktop
   - tau-logos
   - tau-logos-httpd
   - kernel
