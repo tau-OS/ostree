@@ -16,6 +16,7 @@ check-passwd:
 check-groups:
   type: file
   filename: group
+default_target: graphical.target
 packages:
   - tau-release
   - tau-release-identity
