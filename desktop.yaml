@@ -3,6 +3,8 @@ repos:
   - fedora
   - updates
   - innatical_tau
+packages:
+  - tau-release-ostree-desktop
 include:
   - base.yaml
   - hardware-support.yaml

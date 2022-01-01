@@ -4,6 +4,8 @@ readonly-executables: true
 tmp-is-dir: true
 releasever: 35
 packages:
+  - tau-release
+  - tau-release-identity
   - tau-logos
   - tau-logos-httpd
   - kernel
