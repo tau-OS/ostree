@@ -4,7 +4,7 @@ repos:
   - updates
   - innatical_tau
 include:
-  - base
-  - hardware-support
-  - xorg
-  - gnome
+  - base.yaml
+  - hardware-support.yaml
+  - xorg.yaml
+  - gnome.yaml
