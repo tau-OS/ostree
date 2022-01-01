@@ -1,8 +1,21 @@
 boot-location: modules
+selinux: true
 cliwrap: true
 readonly-executables: true
 tmp-is-dir: true
 releasever: 35
+etc-group-members:
+  - wheel
+ignore-removed-users:
+  - root
+ignore-removed-groups:
+  - root
+check-passwd:
+  type: file
+  filename: passwd
+check-groups:
+  type: file
+  filename: group
 packages:
   - tau-release
   - tau-release-identity
