@@ -18,6 +18,10 @@ check-groups:
   filename: group
 default_target: graphical.target
 packages:
+  - grub2-efi
+  - shim
+  - ostree-grub2
+  - rpm-ostree
   - tau-release
   - tau-release-identity
   - tau-release-ostree-desktop
