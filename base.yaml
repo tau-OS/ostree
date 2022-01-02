@@ -37,7 +37,6 @@ packages:
   - e2fsprogs
   - filesystem
   - glibc
-  - grubby
   - hostname
   - iproute
   - iputils
