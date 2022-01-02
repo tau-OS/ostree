@@ -17,6 +17,7 @@ check-groups:
   type: file
   filename: group
 default_target: graphical.target
+postprocess-script: post.sh
 packages:
   - ostree-grub2
   - efibootmgr
