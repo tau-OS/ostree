@@ -18,9 +18,8 @@ check-groups:
   filename: group
 default_target: graphical.target
 packages:
-  - grub2-efi
-  - shim
   - ostree-grub2
+  - efibootmgr
   - rpm-ostree
   - tau-release
   - tau-release-identity
@@ -147,3 +146,11 @@ packages:
 packages-x86_64:
   - mcelog
   - microcode_ctl
+  - grub2-efi-ia32
+  - grub2-efi-x64
+  - grub2-pc
+  - shim-ia32
+  - shim-x64
+packages-aarch64:
+  - grub2-efi
+  - shim
