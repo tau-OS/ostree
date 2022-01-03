@@ -30,7 +30,6 @@ packages:
   - at-spi2-core
   - avahi
   - baobab
-  - cheese
   - chrome-gnome-shell
   - eog
   - evince
