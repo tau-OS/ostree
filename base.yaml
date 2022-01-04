@@ -27,7 +27,7 @@ packages:
   - tau-release-identity
   - tau-release-ostree-desktop
   - tau-logos
-  - tau-logos-httpd
+  # - tau-logos-httpd
   - kernel
   - kernel-modules-extra
   - audit
