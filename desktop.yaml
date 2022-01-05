@@ -13,3 +13,4 @@ include:
   - xorg.yaml
   - gnome.yaml
   - fonts.yaml
+  - desktop-base.yaml
