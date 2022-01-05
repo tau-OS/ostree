@@ -12,3 +12,4 @@ include:
   - hardware-support.yaml
   - xorg.yaml
   - gnome.yaml
+  - fonts.yaml
