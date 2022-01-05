@@ -19,7 +19,7 @@ check-groups:
 default_target: graphical.target
 postprocess-script: post.sh
 packages:
-  - akmods-nvidia
+  - akmod-nvidia
   - nss-altfiles
   - ostree-grub2
   - efibootmgr
