@@ -26,11 +26,8 @@ packages:
   - ostree-grub2
   - efibootmgr
   - rpm-ostree
-  - tau-release
-  - tau-release-identity
-  - tau-release-ostree-desktop
   - tau-logos
-  # - tau-logos-httpd
+  - tau-logos-httpd
   - kernel
   - kernel-modules-extra
   - audit
