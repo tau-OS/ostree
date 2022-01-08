@@ -2,5 +2,5 @@ packages:
   - tau-wallpapers
   - skye
   - tau-release
-  - tau-release-identity
+  - tau-release-identity-gnome
   - tau-release-ostree-desktop
