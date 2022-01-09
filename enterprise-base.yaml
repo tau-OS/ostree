@@ -21,6 +21,10 @@ postprocess-script: post.sh
 packages:
   - epel-release
   - git
+  - clang-libs
+  - clutter
+  - libxatracker
+  - clang
   - akmod-nvidia
   - nss-altfiles
   - ostree-grub2

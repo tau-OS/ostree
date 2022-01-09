@@ -23,5 +23,7 @@ packages:
   - opensc
   - pcsc-lite
   - pcsc-lite-ccid
+  - kmodtool
+  - akmods
 packages-aarch64:
   - bcm283x-firmware

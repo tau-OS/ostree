@@ -1,13 +1,14 @@
 packages:
+  - gnome-shell
   - dconf
   - gdm
-  - gnome-boxes
+  - virt-manager
+  - kvm
   - gnome-control-center
   - gnome-initial-setup
   - gnome-session-wayland-session
   - gnome-session-xsession
   - gnome-settings-daemon
-  - gnome-shell
   - gnome-software
   - gnome-terminal
   - nautilus
@@ -24,6 +25,7 @@ packages:
   - avahi
   - baobab
   - chrome-gnome-shell
+  - python
   - eog
   - evince
   - evince-nautilus
@@ -69,3 +71,4 @@ packages:
   - xdg-user-dirs-gtk
   - gnome-tweaks
   - cheese
+  - gnome-shell-extension-common
