@@ -1,4 +1,4 @@
-ref: tau/desktop/${basearch}/stable
+ref: tau/enterprise/${basearch}/stable
 repos:
   - almalinux
   - almalinux-plus
