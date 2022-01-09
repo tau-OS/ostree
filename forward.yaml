@@ -1,0 +1,17 @@
+ref: tau/desktop/${basearch}/devel
+repos:
+  - fedora
+  - updates
+  - innatical_tau
+  - rpmfusion-free-updates
+  - rpmfusion-free
+  - rpmfusion-nonfree-updates
+  - rpmfusion-nonfree
+include:
+  - base.yaml
+  - hardware-support.yaml
+  - xorg.yaml
+  - gnome.yaml
+  - fonts.yaml
+  - desktop-base.yaml
+  - forward-base.yml
