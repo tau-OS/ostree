@@ -1,7 +1,0 @@
-[rpmfusion-nonfree-35]
-name=RPM Fusion for Fedora $releasever - Nonfree
-#baseurl=http://download1.rpmfusion.org/nonfree/fedora/releases/$releasever/Everything/$basearch/os/
-metalink=https://mirrors.rpmfusion.org/metalink?repo=nonfree-fedora-$releasever&arch=$basearch
-enabled=0
-gpgcheck=0
-metadata_expire=1d
