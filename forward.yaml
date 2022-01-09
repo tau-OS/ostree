@@ -1,4 +1,4 @@
-ref: tau/desktop/${basearch}/devel
+ref: tau/desktop/${basearch}/forward
 repos:
   - fedora
   - updates
