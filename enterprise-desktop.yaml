@@ -7,7 +7,7 @@ repos:
   - ha
   - plus
   - resilientstorage
-  - innatical_tau
+  - innatical_tau-el8
   #Fix Later
   - rpmfusion-free-updates-el8
   #- rpmfusion-free
@@ -18,5 +18,4 @@ include:
   - enterprise-hardware-support.yaml
   - xorg.yaml
   - enterprise-gnome.yaml
-  - fonts.yaml
   - enterprise-desktop-base.yaml

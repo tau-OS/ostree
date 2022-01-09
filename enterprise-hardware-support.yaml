@@ -1,9 +1,4 @@
 packages:
-  - atmel-firmware
-  - b43-fwcutter
-  - b43-openfwwf
-  - ipw2100-firmware
-  - ipw2200-firmware
   - iwl100-firmware
   - iwl1000-firmware
   - iwl105-firmware
@@ -20,28 +15,13 @@ packages:
   - iwl6000g2b-firmware
   - iwl6050-firmware
   - iwl7260-firmware
-  - iwlax2xx-firmware
   - libertas-usb8388-firmware
   - usb_modeswitch
-  - zd1211-firmware
-  - acpi
-  - acpitool
   - alsa-firmware
-  - gpsd
-  - gpsd-clients
-  - hddtemp
   - hdparm
-  - iscan-firmware
-  - libifp
-  - liquidio-firmware
   - lsscsi
-  - mrvlprestera-firmware
-  - multican
-  - netronome-firmware
   - opensc
   - pcsc-lite
   - pcsc-lite-ccid
-  - radeontop
-  - wpan-tools
 packages-aarch64:
   - bcm283x-firmware

@@ -1,27 +1,27 @@
 # almalinux-ha.repo
 
 [ha]
-name=AlmaLinux $releasever - HighAvailability
-mirrorlist=https://mirrors.almalinux.org/mirrorlist/$releasever/ha
-# baseurl=https://repo.almalinux.org/almalinux/$releasever/HighAvailability/$basearch/os/
+name=AlmaLinux 8.5 - HighAvailability
+mirrorlist=https://mirrors.almalinux.org/mirrorlist/8.5/ha
+# baseurl=https://repo.almalinux.org/almalinux/8.5/HighAvailability/$basearch/os/
 enabled=0
-gpgcheck=1
+gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux
 
 ## Sources
 [ha-source]
-name=AlmaLinux $releasever - HighAvailability Source
-mirrorlist=https://mirrors.almalinux.org/mirrorlist/$releasever/ha-source
-# baseurl=https://repo.almalinux.org/almalinux/$releasever/HighAvailability/Source/
+name=AlmaLinux 8.5 - HighAvailability Source
+mirrorlist=https://mirrors.almalinux.org/mirrorlist/8.5/ha-source
+# baseurl=https://repo.almalinux.org/almalinux/8.5/HighAvailability/Source/
 enabled=0
-gpgcheck=1
+gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux
 
 ## Debuginfo
 [ha-debuginfo]
-name=AlmaLinux $releasever - HighAvailability debuginfo
-mirrorlist=https://mirrors.almalinux.org/mirrorlist/$releasever/ha-debuginfo
-# baseurl=https://repo.almalinux.org/almalinux/$releasever/HighAvailability/debug/$basearch/
+name=AlmaLinux 8.5 - HighAvailability debuginfo
+mirrorlist=https://mirrors.almalinux.org/mirrorlist/8.5/ha-debuginfo
+# baseurl=https://repo.almalinux.org/almalinux/8.5/HighAvailability/debug/$basearch/
 enabled=0
-gpgcheck=1
+gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux

@@ -3,7 +3,7 @@ name=RPM Fusion for EL 8 - Free - Updates
 #baseurl=http://download1.rpmfusion.org/free/el/updates/8/$basearch/
 mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=free-el-updates-released-8&arch=$basearch
 enabled=1
-gpgcheck=1
+gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-free-el-8
 
 [rpmfusion-free-updates-debuginfo]
@@ -12,7 +12,7 @@ name=RPM Fusion for EL 8 - Free - Updates Debug
 mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=free-el-updates-released-debug-8&arch=$basearch
 enabled=0
 type=rpm-md
-gpgcheck=1
+gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-free-el-8
 
 [rpmfusion-free-updates-source]
@@ -21,6 +21,6 @@ name=RPM Fusion for EL 8 - Free - Updates Source
 mirrorlist=http://mirrors.rpmfusion.org/mirrorlist?repo=free-el-updates-released-source-8&arch=$basearch
 enabled=0
 type=rpm-md
-gpgcheck=1
+gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-rpmfusion-free-el-8
 

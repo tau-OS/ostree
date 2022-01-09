@@ -21,7 +21,7 @@ postprocess-script: post.sh
 packages:
   - epel-release
   - git
-  - toolbox
+  - podman
   - akmod-nvidia
   - nss-altfiles
   - ostree-grub2
@@ -66,17 +66,11 @@ packages:
   - vim-minimal
   - NetworkManager
   - dracut-config-rescue
-  - fedora-repos-modular
   - firewalld
   - plymouth
-  - systemd-oomd-defaults
-  - systemd-resolved
-  - zram-generator-defaults
   - dracut-config-generic
   - initial-setup
   - initscripts
-  - uboot-images-armv8
-  - uboot-tools
   - abrt-cli
   - acl
   - at
@@ -84,29 +78,24 @@ packages:
   - bash-completion
   - bc
   - bind-utils
-  - btrfs-progs
   - bzip2
   - cifs-utils
-  - compsize
   - cpio
   - crontabs
   - cryptsetup
   - cyrus-sasl-plain
   - dbus
-  - default-editor
+  - nano
   - dos2unix
   - dosfstools
   - ed
   - ethtool
-  - exfatprogs
   - file
-  - fpaste
   - fprintd-pam
   - gnupg2
   - hunspell
   - iptstate
   - irqbalance
-  - jwhois
   - logrotate
   - lsof
   - mailcap
@@ -117,10 +106,7 @@ packages:
   - net-tools
   - nfs-utils
   - nmap-ncat
-  - ntfs-3g
-  - ntfsprogs
   - opensc
-  - passwdqc
   - pciutils
   - pinfo
   - quota
