@@ -138,14 +138,12 @@ packages:
   - which
   - words
   - zip
+  - shim
+  - efibootmgr
 packages-x86_64:
   - mcelog
   - microcode_ctl
-  - grub2-efi-ia32
+  - grub2
   - grub2-efi-x64
-  - grub2-pc
-  - shim-ia32
-  - shim-x64
 packages-aarch64:
-  - grub2-efi
-  - shim
+  - grub2-efi-aa64
