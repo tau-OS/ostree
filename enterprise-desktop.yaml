@@ -9,9 +9,9 @@ repos:
   - resilientstorage
   - innatical_tau
   #Fix Later
-  #- rpmfusion-free-updates
+  - rpmfusion-free-updates-el8
   #- rpmfusion-free
-  #- rpmfusion-nonfree-updates
+  - rpmfusion-nonfree-updates-el8
   #- rpmfusion-nonfree
 include:
   - enterprise-base.yaml
