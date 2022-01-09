@@ -21,7 +21,6 @@ postprocess-script: post.sh
 packages:
   - epel-release
   - git
-  - podman
   - akmod-nvidia
   - nss-altfiles
   - ostree-grub2

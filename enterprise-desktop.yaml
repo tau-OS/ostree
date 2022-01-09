@@ -16,6 +16,6 @@ repos:
 include:
   - enterprise-base.yaml
   - enterprise-hardware-support.yaml
-  - xorg.yaml
+  - enterprise-xorg.yaml
   - enterprise-gnome.yaml
   - enterprise-desktop-base.yaml
