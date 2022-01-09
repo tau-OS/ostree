@@ -2,8 +2,6 @@ packages:
   - gnome-shell
   - dconf
   - gdm
-  - virt-manager
-  - kvm
   - gnome-control-center
   - gnome-initial-setup
   - gnome-session-wayland-session
