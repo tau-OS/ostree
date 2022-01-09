@@ -1,0 +1,14 @@
+NAME="tauOS Enterprise"
+VERSION="22 (Stephen Hawking)"
+ID=tauenterprise
+ID_LIKE="rhel centos fedora almalinux"
+VERSION_ID="8.5"
+VERSION_CODENAME="Stephen Hawking"
+PLATFORM_ID="platform:el8"
+PRETTY_NAME="tauOS Enterprise 22 (Stephen Hawking)"
+ANSI_COLOR="1;34"
+LOGO=tau-logo
+HOME_URL="https://tau.innatical.com"
+DOCUMENTATION_URL="https://wiki.tau.innatical.com"
+SUPPORT_URL="https://github.com/tau-OS/meta/discussions"
+BUG_REPORT_URL="https://github.com/tau-OS/meta/issues"

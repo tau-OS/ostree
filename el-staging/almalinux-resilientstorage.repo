@@ -1,0 +1,27 @@
+# almalinux-resilientstorage.repo
+
+[resilientstorage]
+name=AlmaLinux $releasever - ResilientStorage
+mirrorlist=https://mirrors.almalinux.org/mirrorlist/$releasever/resilientstorage
+# baseurl=https://repo.almalinux.org/almalinux/$releasever/ResilientStorage/$basearch/os/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux
+
+## Sources
+[resilientstorage-source]
+name=AlmaLinux $releasever - ResilientStorage Source
+mirrorlist=https://mirrors.almalinux.org/mirrorlist/$releasever/resilientstorage-source
+# baseurl=https://repo.almalinux.org/almalinux/$releasever/ResilientStorage/Source/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux
+
+## Debuginfo
+[resilientstorage-debuginfo]
+name=AlmaLinux $releasever - ResilientStorage debuginfo
+mirrorlist=https://mirrors.almalinux.org/mirrorlist/$releasever/resilientstorage-debuginfo
+# baseurl=https://repo.almalinux.org/almalinux/$releasever/ResilientStorage/debug/$basearch/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux

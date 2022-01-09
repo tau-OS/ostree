@@ -1,0 +1,27 @@
+# almalinux-ha.repo
+
+[ha]
+name=AlmaLinux $releasever - HighAvailability
+mirrorlist=https://mirrors.almalinux.org/mirrorlist/$releasever/ha
+# baseurl=https://repo.almalinux.org/almalinux/$releasever/HighAvailability/$basearch/os/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux
+
+## Sources
+[ha-source]
+name=AlmaLinux $releasever - HighAvailability Source
+mirrorlist=https://mirrors.almalinux.org/mirrorlist/$releasever/ha-source
+# baseurl=https://repo.almalinux.org/almalinux/$releasever/HighAvailability/Source/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux
+
+## Debuginfo
+[ha-debuginfo]
+name=AlmaLinux $releasever - HighAvailability debuginfo
+mirrorlist=https://mirrors.almalinux.org/mirrorlist/$releasever/ha-debuginfo
+# baseurl=https://repo.almalinux.org/almalinux/$releasever/HighAvailability/debug/$basearch/
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux
