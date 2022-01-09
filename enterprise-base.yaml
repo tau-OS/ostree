@@ -19,6 +19,7 @@ check-groups:
 default_target: graphical.target
 postprocess-script: post.sh
 packages:
+  - epel-release
   - git
   - toolbox
   - akmod-nvidia
