@@ -1,12 +1,12 @@
 ref: tau/desktop/${basearch}/forward
 repos:
-  - fedora
-  - updates
+  - fedora-rawhide
+  - updates-rawhide
   - innatical_tau
-  - rpmfusion-free-updates
-  - rpmfusion-free
-  - rpmfusion-nonfree-updates
-  - rpmfusion-nonfree
+  - rpmfusion-free-updates-rawhide
+  - rpmfusion-free-rawhide
+  - rpmfusion-nonfree-updates-rawhide
+  - rpmfusion-nonfree-rawhide
 include:
   - base.yaml
   - hardware-support.yaml

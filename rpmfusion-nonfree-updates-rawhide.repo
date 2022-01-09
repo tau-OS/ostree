@@ -1,0 +1,7 @@
+[rpmfusion-nonfree-updates-rawhide]
+name=RPM Fusion for Fedora $releasever - Nonfree - Updates
+#baseurl=http://download1.rpmfusion.org/nonfree/fedora/updates/rawhide/$basearch/
+metalink=https://mirrors.rpmfusion.org/metalink?repo=nonfree-fedora-updates-released-rawhide&arch=$basearch
+enabled=0
+gpgcheck=0
+metadata_expire=1d
