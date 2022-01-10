@@ -9,9 +9,9 @@ repos:
   - rpmfusion-nonfree-rawhide
 include:
   - base.yaml
-  - hardware-support.yaml
+  - forward-hardware-support.yaml
   - xorg.yaml
   - gnome.yaml
   - fonts.yaml
   - desktop-base.yaml
-  - forward-base.yml
+  - forward-base.yaml
