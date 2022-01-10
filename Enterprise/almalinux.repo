@@ -1,0 +1,75 @@
+# almalinux.repo
+
+[baseos]
+name=AlmaLinux 8.5 - BaseOS
+mirrorlist=https://mirrors.almalinux.org/mirrorlist/8.5/baseos
+# baseurl=https://repo.almalinux.org/almalinux/8.5/BaseOS/$basearch/os/
+enabled=1
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux
+
+[appstream]
+name=AlmaLinux 8.5 - AppStream
+mirrorlist=https://mirrors.almalinux.org/mirrorlist/8.5/appstream
+# baseurl=https://repo.almalinux.org/almalinux/8.5/AppStream/$basearch/os/
+enabled=1
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux
+
+[extras]
+name=AlmaLinux 8.5 - Extras
+mirrorlist=https://mirrors.almalinux.org/mirrorlist/8.5/extras
+# baseurl=https://repo.almalinux.org/almalinux/8.5/extras/$basearch/os/
+enabled=1
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux
+
+## Sources
+[baseos-source]
+name=AlmaLinux 8.5 - BaseOS Source
+mirrorlist=https://mirrors.almalinux.org/mirrorlist/8.5/baseos-source
+# baseurl=https://repo.almalinux.org/almalinux/8.5/BaseOS/Source/
+enabled=0
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux
+
+[appstream-source]
+name=AlmaLinux 8.5 - AppStream Source
+mirrorlist=https://mirrors.almalinux.org/mirrorlist/8.5/appstream-source
+# baseurl=https://repo.almalinux.org/almalinux/8.5/AppStream/Source/
+enabled=0
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux
+
+[extras-source]
+name=AlmaLinux 8.5 - Extras Source
+mirrorlist=https://mirrors.almalinux.org/mirrorlist/8.5/extras-source
+# baseurl=https://repo.almalinux.org/almalinux/8.5/extras/Source/
+enabled=0
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux
+
+## Debuginfo
+[baseos-debuginfo]
+name=AlmaLinux 8.5 - BaseOS debuginfo
+mirrorlist=https://mirrors.almalinux.org/mirrorlist/8.5/baseos-debuginfo
+# baseurl=https://repo.almalinux.org/almalinux/8.5/BaseOS/debug/$basearch/
+enabled=0
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux
+
+[appstream-debuginfo]
+name=AlmaLinux 8.5 - AppStream debuginfo
+mirrorlist=https://mirrors.almalinux.org/mirrorlist/8.5/appstream-debuginfo
+# baseurl=https://repo.almalinux.org/almalinux/8.5/AppStream/debug/$basearch/
+enabled=0
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux
+
+[extras-debuginfo]
+name=AlmaLinux 8.5 - Extras debuginfo
+mirrorlist=https://mirrors.almalinux.org/mirrorlist/8.5/extras-debuginfo
+# baseurl=https://repo.almalinux.org/almalinux/8.5/extras/debug/$basearch/
+enabled=0
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux

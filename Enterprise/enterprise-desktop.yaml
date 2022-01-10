@@ -1,0 +1,21 @@
+ref: tau/enterprise/${basearch}/stable
+repos:
+  - baseos
+  - appstream
+  - extras
+  - powertools
+  - ha
+  - plus
+  - resilientstorage
+  - innatical_tau-el8
+  #Fix Later
+  - rpmfusion-free-updates-el8
+  #- rpmfusion-free
+  - rpmfusion-nonfree-updates-el8
+  #- rpmfusion-nonfree
+include:
+  - enterprise-base.yaml
+  - enterprise-hardware-support.yaml
+  - enterprise-xorg.yaml
+  - enterprise-gnome.yaml
+  - enterprise-desktop-base.yaml

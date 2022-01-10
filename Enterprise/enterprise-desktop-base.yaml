@@ -1,0 +1,6 @@
+packages:
+  - tau-wallpapers
+  - firefox
+  #- tau-release-enterprise
+  - tau-release-identity-enterprise
+  - tau-release-ostree-desktop

@@ -1,0 +1,16 @@
+ref: tau/kde/${basearch}/stable
+repos:
+  - fedora
+  - updates
+  - innatical_tau
+  - rpmfusion-free-updates
+  - rpmfusion-free
+  - rpmfusion-nonfree-updates
+  - rpmfusion-nonfree
+include:
+  - base.yaml
+  - hardware-support.yaml
+  - xorg.yaml
+  - kde-desktop.yaml
+  - fonts.yaml
+  - kde-base.yaml

@@ -1,0 +1,17 @@
+ref: tau/desktop/${basearch}/forward
+repos:
+  - fedora-rawhide
+  - updates-rawhide
+  - innatical_tau
+  - rpmfusion-free-updates-rawhide
+  - rpmfusion-free-rawhide
+  - rpmfusion-nonfree-updates-rawhide
+  - rpmfusion-nonfree-rawhide
+include:
+  - base.yaml
+  - forward-hardware-support.yaml
+  - xorg.yaml
+  - gnome.yaml
+  - fonts.yaml
+  - desktop-base.yaml
+  - forward-base.yaml
