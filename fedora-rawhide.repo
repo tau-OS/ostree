@@ -1,7 +1,0 @@
-[fedora-rawhide]
-name=Fedora Rawhide - $basearch
-#baseurl=http://download.example/pub/fedora/linux/releases/36/Everything/$basearch/os/
-metalink=https://mirrors.fedoraproject.org/metalink?repo=fedora-36&arch=$basearch
-enabled=0
-gpgcheck=0
-metadata_expire=1d
