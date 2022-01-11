@@ -21,9 +21,9 @@ postprocess-script: post.sh
 
 modules:
   enable:
-  - llvm-toolset
-  - python
-  - platform
+  - llvm-toolset:rhel8
+  - python36:3.6
+  - platform:el8
 packages:
   - epel-release
   - git

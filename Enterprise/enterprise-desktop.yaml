@@ -1,4 +1,4 @@
-ref: tau/enterprise/${basearch}/stable
+ref: tau/enterprise/${basearch}/22
 repos:
   - baseos
   - appstream
