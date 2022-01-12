@@ -18,27 +18,16 @@ check-groups:
   filename: group
 default_target: graphical.target
 postprocess-script: post.sh
-
-modules:
-  enable:
-  - llvm-toolset:rhel8
-  - python36:3.6
-  - platform:el8
 packages:
-  - epel-release
   - git
-  - llvm-libs
-  - llvm
-  - python36
-  - clutter
-  - libxatracker
+  - toolbox
   - akmod-nvidia
   - nss-altfiles
   - ostree-grub2
   - efibootmgr
   - rpm-ostree
-  - tau-logos-enterprise
-  - tau-logos-enterprise-httpd
+  - tau-logos
+  - tau-logos-httpd
   - kernel
   - kernel-modules-extra
   - audit
@@ -76,11 +65,17 @@ packages:
   - vim-minimal
   - NetworkManager
   - dracut-config-rescue
+  - fedora-repos-modular
   - firewalld
   - plymouth
+  - systemd-oomd-defaults
+  - systemd-resolved
+  - zram-generator-defaults
   - dracut-config-generic
   - initial-setup
   - initscripts
+  - uboot-images-armv8
+  - uboot-tools
   - abrt-cli
   - acl
   - at
@@ -88,24 +83,29 @@ packages:
   - bash-completion
   - bc
   - bind-utils
+  - btrfs-progs
   - bzip2
   - cifs-utils
+  - compsize
   - cpio
   - crontabs
   - cryptsetup
   - cyrus-sasl-plain
   - dbus
-  - nano
+  - default-editor
   - dos2unix
   - dosfstools
   - ed
   - ethtool
+  - exfatprogs
   - file
+  - fpaste
   - fprintd-pam
   - gnupg2
   - hunspell
   - iptstate
   - irqbalance
+  - jwhois
   - logrotate
   - lsof
   - mailcap
@@ -116,7 +116,10 @@ packages:
   - net-tools
   - nfs-utils
   - nmap-ncat
+  - ntfs-3g
+  - ntfsprogs
   - opensc
+  - passwdqc
   - pciutils
   - pinfo
   - quota
