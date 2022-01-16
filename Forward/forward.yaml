@@ -1,4 +1,4 @@
-ref: tau/desktop/${basearch}/forward
+ref: tau/forward/${date}/${basearch}
 repos:
   - fedora-rawhide
   - updates-rawhide

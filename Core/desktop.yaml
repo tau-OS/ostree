@@ -1,4 +1,4 @@
-ref: tau/desktop/${basearch}/stable
+ref: tau/core/1/${basearch}
 repos:
   - fedora
   - updates
