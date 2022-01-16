@@ -1,15 +1,16 @@
-ref: tau/desktop/${basearch}/stable
+ref: tau/enterprise/22/${basearch}
 repos:
-  - fedora
-  - updates
+  - baseos
+  - appstream
+  - crb
   - innatical_tau
-  - rpmfusion-free-updates-35
-  - rpmfusion-free-35
-  - rpmfusion-nonfree-updates-35
-  - rpmfusion-nonfree-35
+  # rpmfusion-free-updates
+  # rpmfusion-free
+  # rpmfusion-nonfree-updates
+  # rpmfusion-nonfree
 include:
   - base.yaml
-  - hardware-support.yaml
+  # hardware-support.yaml
   - xorg.yaml
   - gnome.yaml
   - fonts.yaml
