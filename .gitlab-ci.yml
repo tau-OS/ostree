@@ -21,7 +21,7 @@ stages:          # List of stages for jobs, and their order of execution
 init-job:       # Setup Build Tree
   stage: init
   script:
-   - sudo dnf install libostree rpm-ostree -y
+   - sudo dnf install ostree rpm-ostree -y
    - cd Core
    - ostree init --repo build-tree --mode archive
 
