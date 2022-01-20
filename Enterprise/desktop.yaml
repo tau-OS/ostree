@@ -3,7 +3,7 @@ repos:
   - baseos
   - appstream
   - crb
-  - innatical_tau
+  - tau
   # rpmfusion-free-updates
   # rpmfusion-free
   # rpmfusion-nonfree-updates
@@ -13,5 +13,5 @@ include:
   # hardware-support.yaml
   - xorg.yaml
   - gnome.yaml
-  - fonts.yaml
+  #- fonts.yaml
   - desktop-base.yaml
