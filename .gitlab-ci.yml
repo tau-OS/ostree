@@ -21,6 +21,7 @@ stages:          # List of stages for jobs, and their order of execution
 init-job:       # Setup Build Tree
   stage: init
   script:
+   - cd Core
    - ostree init --repo build-tree --mode archive
 
 compose-job:   # Compose tree
