@@ -1,0 +1,7 @@
+[updates]
+name=tauOS 1 - Updates
+#baseurl=http://download.example/pub/fedora/linux/updates/$releasever/Everything/$basearch/
+metalink=https://mirrors.fedoraproject.org/metalink?repo=updates-released-f$releasever&arch=$basearch
+enabled=0
+gpgcheck=0
+metadata_expire=1d

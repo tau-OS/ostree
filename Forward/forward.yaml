@@ -8,10 +8,8 @@ repos:
   - rpmfusion-nonfree-updates-rawhide
   - rpmfusion-nonfree-rawhide
 include:
-  - base.yaml
-  - forward-hardware-support.yaml
-  - xorg.yaml
-  - gnome.yaml
-  - fonts.yaml
-  - desktop-base.yaml
-  - forward-base.yaml
+  - Common/Forward/common.yaml
+  - Common/Forward/hardware.yaml
+  - Common/Core/gnome.yaml
+  - Common/Core/fonts.yaml
+  - apps.yaml
