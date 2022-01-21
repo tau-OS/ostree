@@ -1,0 +1,17 @@
+ref: tau/enterprise/22/${basearch}
+repos:
+  - baseos
+  - appstream
+  - crb
+  - tau
+  # rpmfusion-free-updates
+  # rpmfusion-free
+  # rpmfusion-nonfree-updates
+  # rpmfusion-nonfree
+include:
+  - base.yaml
+  # hardware-support.yaml
+  - xorg.yaml
+  - gnome.yaml
+  #- fonts.yaml
+  - desktop-base.yaml

@@ -1,0 +1,27 @@
+# almalinux-plus.repo
+
+[plus]
+name=AlmaLinux 8.5 - Plus
+mirrorlist=https://mirrors.almalinux.org/mirrorlist/8.5/plus
+# baseurl=https://repo.almalinux.org/almalinux/8.5/plus/$basearch/os/
+enabled=0
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux
+
+## Sources
+[plus-source]
+name=AlmaLinux 8.5 - Plus Source
+mirrorlist=https://mirrors.almalinux.org/mirrorlist/8.5/plus-source
+# baseurl=https://repo.almalinux.org/almalinux/8.5/plus/Source/
+enabled=0
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux
+
+## Debuginfo
+[plus-debuginfo]
+name=AlmaLinux 8.5 - Plus debuginfo
+mirrorlist=https://mirrors.almalinux.org/mirrorlist/8.5/plus-debuginfo
+# baseurl=https://repo.almalinux.org/almalinux/8.5/plus/debug/$basearch/
+enabled=0
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux

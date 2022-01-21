@@ -1,0 +1,27 @@
+# almalinux-powertools.repo
+
+[powertools]
+name=AlmaLinux 8.5 - PowerTools
+mirrorlist=https://mirrors.almalinux.org/mirrorlist/8.5/powertools
+# baseurl=https://repo.almalinux.org/almalinux/8.5/PowerTools/$basearch/os/
+enabled=1
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux
+
+## Sources
+[powertools-source]
+name=AlmaLinux 8.5 - PowerTools Source
+mirrorlist=https://mirrors.almalinux.org/mirrorlist/8.5/powertools-source
+# baseurl=https://repo.almalinux.org/almalinux/8.5/PowerTools/Source/
+enabled=0
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux
+
+## Debuginfo
+[powertools-debuginfo]
+name=AlmaLinux 8.5 - PowerTools debuginfo
+mirrorlist=https://mirrors.almalinux.org/mirrorlist/8.5/powertools-debuginfo
+# baseurl=https://repo.almalinux.org/almalinux/8.5/PowerTools/debug/$basearch/
+enabled=0
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-AlmaLinux

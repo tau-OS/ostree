@@ -8,9 +8,8 @@ repos:
   - rpmfusion-nonfree-updates-35
   - rpmfusion-nonfree-35
 include:
-  - base.yaml
-  - hardware-support.yaml
-  - xorg.yaml
-  - gnome.yaml
-  - fonts.yaml
-  - desktop-base.yaml
+  - Common/Core/common.yaml
+  - Common/Core/hardware.yaml
+  - Common/Core/gnome.yaml
+  - Common/Core/fonts.yaml
+  - apps.yaml
