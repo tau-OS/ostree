@@ -1,6 +1,7 @@
 packages:
   #- tau-wallpapers
   #- skye
-  #- tau-release-enterprise
-  #- tau-release-identity-enterprise
-  #- tau-release-ostree-desktop-enterprise
+  - tau-release
+  #- tau-release-ostree-desktop
+  - tau-release-identity-enterprise
+  - tau-release-identity-enterprise

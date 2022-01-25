@@ -1,4 +1,4 @@
-[fedora]
+[base]
 name=tauOS 1 - Base
 #baseurl=http://download.example/pub/fedora/linux/releases/$releasever/Everything/$basearch/os/
 metalink=https://mirrors.fedoraproject.org/metalink?repo=fedora-$releasever&arch=$basearch

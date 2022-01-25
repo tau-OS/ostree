@@ -3,7 +3,7 @@ selinux: true
 cliwrap: true
 readonly-executables: true
 tmp-is-dir: true
-releasever: 9
+releasever: 34
 etc-group-members:
   - wheel
 ignore-removed-users:
@@ -25,8 +25,8 @@ packages:
   - ostree-grub2
   - efibootmgr
   - rpm-ostree
-  - tau-logos
-  - tau-logos-httpd
+  - tau-logos-enterprise
+  - tau-logos-enterprise-httpd
   - kernel
   - kernel-modules-extra
   - audit
@@ -142,3 +142,4 @@ packages-aarch64:
 exclude-packages:
   - centos-logos
   - centos-logos-httpd
+  - tau-release-identity-1-3.noarch

@@ -1,8 +1,8 @@
-ref: tau/forward/${date}/${basearch}
+ref: tau/forward/${basearch}
 repos:
-  - fedora-rawhide
-  - updates-rawhide
-  - innatical_tau
+  - base
+  - updates
+  - tau
   - rpmfusion-free-updates-rawhide
   - rpmfusion-free-rawhide
   - rpmfusion-nonfree-updates-rawhide

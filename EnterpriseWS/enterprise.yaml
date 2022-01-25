@@ -6,5 +6,5 @@ repos:
   - tau
 include:
   - Common/Enterprise/common.yaml
-  - Common/Enterprisegnome.yaml
+  - Common/Enterprise/gnome.yaml
   - apps.yaml
