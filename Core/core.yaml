@@ -7,6 +7,7 @@ repos:
   - rpmfusion-free-35
   - rpmfusion-nonfree-updates-35
   - rpmfusion-nonfree-35
+  - openh264
 include:
   - Common/Core/common.yaml
   - Common/Core/hardware.yaml
