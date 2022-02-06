@@ -146,6 +146,11 @@ packages:
   - zip
   - shim
   - efibootmgr
+  - x264
+  - x264-libs
+  - mozilla-openh264
+  - gstreamer1-plugun-openh264
+  - openh264
 packages-x86_64:
   - mcelog
   - microcode_ctl
