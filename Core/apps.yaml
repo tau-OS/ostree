@@ -4,3 +4,4 @@ packages:
   - tau-release
   - tau-release-identity
   - tau-release-ostree-desktop
+  - snapd
