@@ -15,6 +15,7 @@
 
 stages: # List of stages for jobs, and their order of execution
   - compose
+  - upload
 
 compose-job: # Setup Build Tree
   stage: compose
@@ -25,4 +26,14 @@ compose-job: # Setup Build Tree
     - cd Core
     - ostree init --repo build-tree --mode archive
     - sudo rpm-ostree compose tree core.yaml --repo build-tree
-    - echo "Rclone things"
+
+upload-job:
+  stage: upload
+  when: manual
+  script:
+    - sudo dnf install rclone
+    - mkdir -p ~/.config/rclone && cp $RCLONE_CONFIG ~/.config/rclone/rclone.conf
+    - sudo chmod -R 777 build-tree
+    - ostree summary --repo build-tree -u
+    - rclone -P sync ./build-tree tau:innatical-tau
+
