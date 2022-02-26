@@ -30,6 +30,8 @@ compose-job: # Setup Build Tree
 upload-job:
   stage: upload
   when: manual
+  dependencies:
+    - compose-job
   script:
     - sudo dnf install rclone -y
     - mkdir -p ~/.config/rclone && cp $RCLONE_CONFIG ~/.config/rclone/rclone.conf
