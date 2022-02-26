@@ -29,7 +29,7 @@ compose-job: # Setup Build Tree
     - sudo chmod -R 777 build-tree
   artifacts:
     paths:
-      - build-tree
+      - ./Core/build-tree
 
 upload-job:
   stage: upload
@@ -39,6 +39,6 @@ upload-job:
   script:
     - sudo dnf install rclone -y
     - mkdir -p ~/.config/rclone && cp $RCLONE_CONFIG ~/.config/rclone/rclone.conf
-    - ostree summary --repo build-tree -u
-    - rclone -P sync ./build-tree tau:innatical-tau
+    - ostree summary --repo ./Core/build-tree -u
+    - rclone -P sync ./Core/build-tree tau:innatical-tau
 
