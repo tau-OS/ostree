@@ -3,7 +3,7 @@ selinux: true
 cliwrap: true
 readonly-executables: true
 tmp-is-dir: true
-releasever: 34
+releasever: "EL8"
 etc-group-members:
   - wheel
 ignore-removed-users:
