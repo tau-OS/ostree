@@ -15,8 +15,8 @@ gpgcheck=0
 metadata_expire=1d
 
 [tau]
-name=tauOS 1 - Innatical Packages
-baseurl=https://packagecloud.io/innatical/tau/fedora/35/$basearch
+name=tauOS 1 - Configuration
+baseurl=https://repo.tauos.co/tau-pkgs
 enabled=0
 gpgcheck=0
 metadata_expire=1d
