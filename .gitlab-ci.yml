@@ -31,7 +31,7 @@ upload-job:
   stage: upload
   when: manual
   script:
-    - sudo dnf install rclone
+    - sudo dnf install rclone -y
     - mkdir -p ~/.config/rclone && cp $RCLONE_CONFIG ~/.config/rclone/rclone.conf
     - sudo chmod -R 777 build-tree
     - ostree summary --repo build-tree -u
