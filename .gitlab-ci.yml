@@ -18,6 +18,8 @@ stages: # List of stages for jobs, and their order of execution
 
 compose-job: # Setup Build Tree
   stage: compose
+  tags:
+    - privileged
   script:
     - sudo dnf install ostree rpm-ostree -y
     - cd Core
