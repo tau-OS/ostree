@@ -24,10 +24,10 @@ compose-job: # Setup Build Tree
     - sudo dnf install ostree rpm-ostree rclone -y
     - cd Core
     - ostree init --repo build-tree --mode archive
-    - sudo rpm-ostree compose tree core.yaml --repo build-tree --write-commitid-to=/tmp/commitid
+    - sudo rpm-ostree compose tree core.yaml --repo build-tree
+    - ostree summary --repo build-tree -u
     - sudo chmod -R 777 build-tree
     - gpg --import $GPG_PRIVATE_KEY
-    - ostree gpg-sign --repo build-tree $(cat /tmp/commitid) 5D155AF6F77C8C9B 
+    - ostree gpg-sign --repo build-tree tau/core/1/x86_64 5D155AF6F77C8C9B 
     - mkdir -p ~/.config/rclone && cp $RCLONE_CONFIG ~/.config/rclone/rclone.conf
-    - ostree summary --repo build-tree -u
     - rclone -P sync build-tree tau:innatical-tau
