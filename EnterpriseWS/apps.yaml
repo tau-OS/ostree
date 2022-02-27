@@ -5,3 +5,6 @@ packages:
   #- tau-release-ostree-desktop
   - tau-release-identity-enterprise
   - tau-release-identity-enterprise
+  - tau-repos
+  - tau-repos-ostree
+  - tau-gpg-keys
