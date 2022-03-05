@@ -100,7 +100,6 @@ packages:
   - exfatprogs
   - file
   - fpaste
-  - fprintd-pam
   - gnupg2
   - hunspell
   - iptstate

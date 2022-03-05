@@ -93,7 +93,6 @@ packages:
   - ethtool
   - exfatprogs
   - file
-  - fprintd-pam
   - gnupg2
   - hunspell
   - irqbalance
