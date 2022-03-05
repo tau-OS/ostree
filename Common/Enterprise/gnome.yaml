@@ -25,7 +25,6 @@ packages:
   - eog
   - evince
   - evince-nautilus
-  - fprintd-pam
   - glib-networking
   - gnome-backgrounds
   - gnome-bluetooth

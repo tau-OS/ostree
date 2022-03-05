@@ -35,7 +35,6 @@ packages:
   - evince
   - evince-djvu
   - evince-nautilus
-  - fprintd-pam
   - glib-networking
   - gnome-backgrounds
   - gnome-bluetooth
