@@ -71,7 +71,6 @@ packages:
   - systemd-oomd-defaults
   - systemd-resolved
   - dracut-config-generic
-  - initial-setup
   - initscripts
   - acl
   - at

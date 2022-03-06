@@ -72,7 +72,6 @@ packages:
   - systemd-resolved
   - zram-generator-defaults
   - dracut-config-generic
-  - initial-setup
   - initscripts
   - uboot-images-armv8
   - uboot-tools
