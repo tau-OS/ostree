@@ -1,46 +1,24 @@
+include:
+  - project: 'tauOS/ci'
+    file: '/.ostree-build-template.yml'
+
 stages:
   - compose
 
-compose-job:
+core-x86_64:
   stage: compose
   tags:
     - privileged
-  cache:
-    - paths:
-      - build-tree-cache
-  script:
-    - echo "Preparing Build Enviroment..."
-
-    - sudo dnf install ostree rpm-ostree rclone wget -y
-    - mkdir -p ~/.config/rclone && cp $RCLONE_CONFIG ~/.config/rclone/rclone.conf
-    - ostree init --repo build-tree --mode archive
-    - mkdir -p build-tree-cache
-    # - ostree remote add --repo build-tree tauOS https://ostree.tau.innatical.com tau/core/1/x86_64 tau/home/1/x86_64
-    # - wget -qO- https://tauos.co/gpg.asc | ostree remote gpg-import --repo build-tree --stdin tauOS 
-    # - until ostree pull --repo build-tree --mirror tauOS tau/core/1/x86_64; do echo "Try again"; done
-    # - until ostree pull --repo build-tree --mirror tauOS tau/home/1/x86_64; do echo "Try again"; done
-    - gpg --import $GPG_PRIVATE_KEY
-
-    - echo "Building Home..."
-
-    - cd Home
-    - sudo rpm-ostree compose tree core.yaml --repo ../build-tree --cachedir=../build-tree-cache
-    - sudo chmod -R 777 ../build-tree
-    - ostree summary --repo ../build-tree -u
-    - ostree gpg-sign --repo ../build-tree tau/home/1/x86_64 5D155AF6F77C8C9B
-    # - ostree --repo=../build-tree static-delta generate tau/home/1/x86_64
-    - cd ..
-
-    - echo "Building Core..."
-
-    - cd Core
-    - sudo rpm-ostree compose tree core.yaml --repo ../build-tree --cachedir=../build-tree-cache
-    - sudo chmod -R 777 ../build-tree
-    - ostree summary --repo ../build-tree -u
-    - ostree gpg-sign --repo ../build-tree tau/core/1/x86_64 5D155AF6F77C8C9B
-    # - ostree --repo=../build-tree static-delta generate tau/core/1/x86_64
-    - cd ..
-
-    - echo "Uploading Tree..."
-
-    - rclone -P sync build-tree tau:innatical-tau
+  variables:
+    OSTREE_REF: tau/core/1/x86_64
+    OS_VARIANT: Core
+  extends: .build
+  
+home-x86_64:
+  stage: compose
+  tags:
+    - privileged
+  variables:
+    OSTREE_REF: tau/home/1/x86_64
+    OS_VARIANT: Home
+  extends: .build
