@@ -11,10 +11,10 @@ compose-job:
     - sudo dnf install ostree rpm-ostree rclone wget -y
     - mkdir -p ~/.config/rclone && cp $RCLONE_CONFIG ~/.config/rclone/rclone.conf
     - ostree init --repo build-tree --mode archive
-    - ostree remote add --repo build-tree tauOS https://ostree.tau.innatical.com tau/core/1/x86_64 tau/home/1/x86_64
-    - wget -qO- https://tauos.co/gpg.asc | ostree remote gpg-import --repo build-tree --stdin tauOS 
-    - until ostree pull --repo build-tree --mirror tauOS tau/core/1/x86_64; do echo "Try again"; done
-    - until ostree pull --repo build-tree --mirror tauOS tau/home/1/x86_64; do echo "Try again"; done
+    # - ostree remote add --repo build-tree tauOS https://ostree.tau.innatical.com tau/core/1/x86_64 tau/home/1/x86_64
+    # - wget -qO- https://tauos.co/gpg.asc | ostree remote gpg-import --repo build-tree --stdin tauOS 
+    # - until ostree pull --repo build-tree --mirror tauOS tau/core/1/x86_64; do echo "Try again"; done
+    # - until ostree pull --repo build-tree --mirror tauOS tau/home/1/x86_64; do echo "Try again"; done
     - gpg --import $GPG_PRIVATE_KEY
 
     - echo "Building Home..."
