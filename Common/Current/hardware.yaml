@@ -28,7 +28,6 @@ packages:
   - acpitool
   - alsa-firmware
   - gpsd
-  - gpsd-clients
   - hddtemp
   - hdparm
   - iscan-firmware
