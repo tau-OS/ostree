@@ -1,4 +1,4 @@
-ref: tau/core/1/${basearch}
+ref: tau/home/1/${basearch}
 repos:
   - base
   - updates
@@ -11,4 +11,6 @@ repos:
 include:
   - ../Common/Current/common.yaml
   - ../Common/Current/hardware.yaml
+  - ../Common/Current/gnome.yaml
+  - ../Common/Current/fonts.yaml
   - apps.yaml

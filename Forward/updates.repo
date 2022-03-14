@@ -1,7 +1,0 @@
-[updates]
-name=tauOS Forward - Updates
-#baseurl=http://download.example/pub/fedora/linux/updates/36/Everything/$basearch/
-metalink=https://mirrors.fedoraproject.org/metalink?repo=updates-released-f36&arch=$basearch
-enabled=0
-gpgcheck=0
-metadata_expire=1d

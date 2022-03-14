@@ -1,33 +1,37 @@
-# This file is a template, and might need editing before it works on your project.
-# To contribute improvements to CI/CD templates, please follow the Development guide at:
-# https://docs.gitlab.com/ee/development/cicd/templates.html
-# This specific template is located at:
-# https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Getting-Started.gitlab-ci.yml
-
-# This is a sample GitLab CI/CD configuration file that should run without any modifications.
-# It demonstrates a basic 3 stage CI/CD pipeline. Instead of real tests or scripts,
-# it uses echo commands to simulate the pipeline execution.
-#
-# A pipeline is composed of independent jobs that run scripts, grouped into stages.
-# Stages run in sequential order, but jobs within stages run in parallel.
-#
-# For more information, see: https://docs.gitlab.com/ee/ci/yaml/index.html#stages
-
-stages: # List of stages for jobs, and their order of execution
+stages:
   - compose
 
-compose-job: # Setup Build Tree
+compose-job:
   stage: compose
   tags:
     - privileged
   script:
+    - echo "Preparing Build Enviroment..."
+
     - sudo dnf install ostree rpm-ostree rclone -y
-    - cd Core
-    - ostree init --repo build-tree --mode archive
-    - sudo rpm-ostree compose tree core.yaml --repo build-tree
-    - ostree summary --repo build-tree -u
-    - sudo chmod -R 777 build-tree
-    - gpg --import $GPG_PRIVATE_KEY
-    - ostree gpg-sign --repo build-tree tau/core/1/x86_64 5D155AF6F77C8C9B 
+    - mkdir build-tree
     - mkdir -p ~/.config/rclone && cp $RCLONE_CONFIG ~/.config/rclone/rclone.conf
+    - rclone -P sync tau:innatical-tau build-tree
+    - gpg --import $GPG_PRIVATE_KEY
+
+    - echo "Building Home..."
+
+    - cd Home
+    - sudo rpm-ostree compose tree core.yaml --repo ../build-tree
+    - sudo chmod -R 777 ../build-tree
+    - ostree summary --repo ../build-tree -u
+    - ostree gpg-sign --repo ../build-tree tau/home/1/x86_64 5D155AF6F77C8C9B 
+    - cd ..
+
+    - echo "Building Core..."
+
+    - cd Core
+    - sudo rpm-ostree compose tree core.yaml --repo ../build-tree
+    - sudo chmod -R 777 ../build-tree
+    - ostree summary --repo ../build-tree -u
+    - ostree gpg-sign --repo ../build-tree tau/core/1/x86_64 5D155AF6F77C8C9B 
+    - cd ..
+
+    - echo "Uploading Tree..."
+
     - rclone -P sync build-tree tau:innatical-tau

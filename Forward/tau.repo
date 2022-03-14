@@ -1,6 +1,0 @@
-[tau]
-name=tauOS Forward - Innatical Packages
-baseurl=https://packagecloud.io/innatical/tau/fedora/35/$basearch
-enabled=0
-gpgcheck=0
-metadata_expire=1d

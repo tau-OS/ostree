@@ -1,7 +1,9 @@
 packages:
+  - tau-wallpapers
   - tau-release
   - tau-release-identity
   - tau-release-ostree-desktop
   - tau-repos
   - tau-repos-ostree
   - tau-gpg-keys
+  - snapd
