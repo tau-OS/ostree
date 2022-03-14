@@ -5,6 +5,9 @@ compose-job:
   stage: compose
   tags:
     - privileged
+  cache:
+    - paths:
+      - build-tree-cache
   script:
     - echo "Preparing Build Enviroment..."
 
@@ -20,7 +23,7 @@ compose-job:
     - echo "Building Home..."
 
     - cd Home
-    - sudo rpm-ostree compose tree core.yaml --repo ../build-tree
+    - sudo rpm-ostree compose tree core.yaml --repo ../build-tree --cachedir=build-tree-cache
     - sudo chmod -R 777 ../build-tree
     - ostree summary --repo ../build-tree -u
     - ostree gpg-sign --repo ../build-tree tau/home/1/x86_64 5D155AF6F77C8C9B
@@ -30,7 +33,7 @@ compose-job:
     - echo "Building Core..."
 
     - cd Core
-    - sudo rpm-ostree compose tree core.yaml --repo ../build-tree
+    - sudo rpm-ostree compose tree core.yaml --repo ../build-tree --cachedir=build-tree-cache
     - sudo chmod -R 777 ../build-tree
     - ostree summary --repo ../build-tree -u
     - ostree gpg-sign --repo ../build-tree tau/core/1/x86_64 5D155AF6F77C8C9B
