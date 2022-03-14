@@ -8,7 +8,7 @@ compose-job:
   script:
     - echo "Preparing Build Enviroment..."
 
-    - sudo dnf install ostree rpm-ostree rclone -y
+    - sudo dnf install ostree rpm-ostree rclone wget -y
     - mkdir -p ~/.config/rclone && cp $RCLONE_CONFIG ~/.config/rclone/rclone.conf
     - ostree init --repo build-tree --mode archive
     - ostree remote add --repo build-tree tauOS https://ostree.tau.innatical.com tau/core/1/x86_64 tau/home/1/x86_64
