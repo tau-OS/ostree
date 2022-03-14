@@ -28,7 +28,7 @@ compose-job:
     - sudo chmod -R 777 ../build-tree
     - ostree summary --repo ../build-tree -u
     - ostree gpg-sign --repo ../build-tree tau/home/1/x86_64 5D155AF6F77C8C9B
-    - ostree --repo=../build-tree static-delta generate tau/home/1/x86_64
+    # - ostree --repo=../build-tree static-delta generate tau/home/1/x86_64
     - cd ..
 
     - echo "Building Core..."
@@ -38,7 +38,7 @@ compose-job:
     - sudo chmod -R 777 ../build-tree
     - ostree summary --repo ../build-tree -u
     - ostree gpg-sign --repo ../build-tree tau/core/1/x86_64 5D155AF6F77C8C9B
-    - ostree --repo=../build-tree static-delta generate tau/core/1/x86_64
+    # - ostree --repo=../build-tree static-delta generate tau/core/1/x86_64
     - cd ..
 
     - echo "Uploading Tree..."
