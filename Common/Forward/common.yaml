@@ -3,7 +3,7 @@ selinux: true
 cliwrap: true
 readonly-executables: true
 tmp-is-dir: true
-releasever: "35"
+releasever: "36"
 etc-group-members:
   - wheel
 ignore-removed-users:
@@ -22,7 +22,6 @@ packages:
   - podman
   - podman-docker
   - git
-  - toolbox
   - akmod-nvidia
   - nss-altfiles
   - ostree-grub2

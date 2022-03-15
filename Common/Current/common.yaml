@@ -22,7 +22,6 @@ packages:
   - podman
   - podman-docker
   - git
-  - toolbox
   - akmod-nvidia
   - nss-altfiles
   - ostree-grub2
