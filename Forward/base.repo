@@ -1,7 +1,7 @@
 [base]
 name=tauOS Forward - Base
 #baseurl=http://download.example/pub/fedora/linux/releases/36/Everything/$basearch/os/
-metalink=https://mirrors.fedoraproject.org/metalink?repo=fedora-$releasever&arch=$basearch
+metalink=https://mirrors.fedoraproject.org/metalink?repo=fedora-36&arch=$basearch
 enabled=0
 gpgcheck=0
 metadata_expire=1d
@@ -9,7 +9,7 @@ metadata_expire=1d
 [updates]
 name=tauOS 1 Home - Updates
 #baseurl=http://download.example/pub/fedora/linux/updates/36/Everything/$basearch/
-metalink=https://mirrors.fedoraproject.org/metalink?repo=updates-released-f$releasever&arch=$basearch
+metalink=https://mirrors.fedoraproject.org/metalink?repo=updates-released-f36&arch=$basearch
 enabled=0
 gpgcheck=0
 metadata_expire=1d

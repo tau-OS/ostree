@@ -1,4 +1,4 @@
-ref: tau/home/1/${basearch}
+ref: tau/forward/36/${basearch}
 repos:
   - base
   - updates
@@ -9,8 +9,8 @@ repos:
   - rpmfusion-nonfree
   - openh264
 include:
-  - ../Common/Current/common.yaml
-  - ../Common/Current/hardware.yaml
-  - ../Common/Current/gnome.yaml
-  - ../Common/Current/fonts.yaml
+  - ../Common/Forward/common.yaml
+  - ../Common/Forward/hardware.yaml
+  - ../Common/Forward/gnome.yaml
+  - ../Common/Forward/fonts.yaml
   - apps.yaml
