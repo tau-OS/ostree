@@ -6,5 +6,6 @@ packages:
   - tau-repos
   - tau-repos-ostree
   - tau-gpg-keys
+  - distrobox
  # - snapd
  # - snapd-compat
