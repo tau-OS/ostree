@@ -22,7 +22,6 @@ packages:
   - podman
   - podman-docker
   - git
-  - akmod-nvidia
   - nss-altfiles
   - ostree-grub2
   - efibootmgr

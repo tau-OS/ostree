@@ -42,5 +42,7 @@ packages:
   - pcsc-lite-ccid
   - radeontop
   - wpan-tools
+packages-x86_64:
+  - akmod-nvidia
 packages-aarch64:
   - bcm283x-firmware
