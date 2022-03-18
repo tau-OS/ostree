@@ -22,3 +22,21 @@ home-x86_64:
     OSTREE_REF: tau/home/1/x86_64
     OS_VARIANT: Home
   extends: .build
+
+core-aarch64:
+  stage: compose
+  tags:
+    - privileged-arm
+  variables:
+    OSTREE_REF: tau/core/1/aarch64
+    OS_VARIANT: Core
+  extends: .build
+  
+home-aarch64:
+  stage: compose
+  tags:
+    - privileged-arm
+  variables:
+    OSTREE_REF: tau/home/1/aarch64
+    OS_VARIANT: Home
+  extends: .build
