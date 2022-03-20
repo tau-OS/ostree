@@ -1,6 +1,6 @@
 [base]
 name=tauOS Forward - Base
-baseurl=http://download.fedoraproject.org/pub/fedora/linux/releases/rawhide/Everything/$basearch/os/
+baseurl=https://mirrors.rit.edu/fedora/fedora/linux/development/rawhide/Everything/$basearch/os/
 #metalink=https://mirrors.fedoraproject.org/metalink?repo=fedora-rawhide&arch=$basearch
 enabled=0
 gpgcheck=0
