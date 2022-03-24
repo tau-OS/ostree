@@ -1,34 +1,34 @@
 [base]
-name=tauOS 1 Home - Base
-#baseurl=http://download.example/pub/fedora/linux/releases/$releasever/Everything/$basearch/os/
-metalink=https://mirrors.fedoraproject.org/metalink?repo=fedora-$releasever&arch=$basearch
+name=tauOS 1.1 Home - Base
+#baseurl=http://download.example/pub/fedora/linux/releases/36/Everything/$basearch/os/
+metalink=https://mirrors.fedoraproject.org/metalink?repo=fedora-36&arch=$basearch
 enabled=0
 gpgcheck=0
 metadata_expire=1d
 
 [updates]
-name=tauOS 1 Home - Updates
-#baseurl=http://download.example/pub/fedora/linux/updates/$releasever/Everything/$basearch/
-metalink=https://mirrors.fedoraproject.org/metalink?repo=updates-released-f$releasever&arch=$basearch
+name=tauOS 1.1 Home - Updates
+#baseurl=http://download.example/pub/fedora/linux/updates/36/Everything/$basearch/
+metalink=https://mirrors.fedoraproject.org/metalink?repo=updates-released-f36&arch=$basearch
 enabled=0
 gpgcheck=0
 metadata_expire=1d
 
 [tau]
-name=tauOS 1 Home - Configuration
-baseurl=https://repo.tauos.co/releases/1
+name=tauOS 1.1 Home - Configuration
+baseurl=https://repo.tauos.co/releases/1.1
 enabled=0
 gpgcheck=0
 metadata_expire=1d
 
 [openh264]
 name=Cisco openh264
-metalink=https://mirrors.fedoraproject.org/metalink?repo=fedora-cisco-openh264-$releasever&arch=$basearch
+metalink=https://mirrors.fedoraproject.org/metalink?repo=fedora-cisco-openh264-36&arch=$basearch
 type=rpm
 enabled=1
 metadata_expire=14d
 repo_gpgcheck=0
 gpgcheck=0
-gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-$releasever-$basearch
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-36-$basearch
 skip_if_unavailable=True
 
