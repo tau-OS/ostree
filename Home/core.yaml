@@ -1,4 +1,4 @@
-ref: tau/home/1/${basearch}
+ref: tau/home/1.1/${basearch}
 repos:
   - base
   - updates

@@ -2,8 +2,6 @@ packages:
   - atmel-firmware
   - b43-fwcutter
   - b43-openfwwf
-  - ipw2100-firmware
-  - ipw2200-firmware
   - iwl100-firmware
   - iwl1000-firmware
   - iwl105-firmware
@@ -42,7 +40,7 @@ packages:
   - pcsc-lite-ccid
   - radeontop
   - wpan-tools
-packages-x86_64:
-  - akmod-nvidia
 packages-aarch64:
   - bcm283x-firmware
+packages-x86_64:
+  - akmod-nvidia
