@@ -19,7 +19,7 @@ home-x86_64:
   tags:
     - privileged
   variables:
-    OSTREE_REF: tau/home/1/x86_64
+    OSTREE_REF: tau/home/1.1/x86_64
     OS_VARIANT: Home
   extends: .build
 
@@ -37,6 +37,6 @@ home-aarch64:
   tags:
     - privileged-arm
   variables:
-    OSTREE_REF: tau/home/1/aarch64
+    OSTREE_REF: tau/home/1.1/aarch64
     OS_VARIANT: Home
   extends: .build
