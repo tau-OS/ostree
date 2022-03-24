@@ -16,7 +16,7 @@ metadata_expire=1d
 
 [tau]
 name=tauOS 1 - Configuration
-baseurl=https://repo.tauos.co/releases/1
+baseurl=https://repo.tauos.co/releases/1.1
 enabled=0
 gpgcheck=0
 metadata_expire=1d
