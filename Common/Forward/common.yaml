@@ -24,6 +24,7 @@ packages:
   - git
   - nss-altfiles
   - ostree-grub2
+  - grub2
   - efibootmgr
   - rpm-ostree
   - tau-logos
@@ -152,7 +153,6 @@ packages:
 packages-x86_64:
   - mcelog
   - microcode_ctl
-  - grub2
   - grub2-efi-x64
 packages-aarch64:
   - grub2-efi-aa64

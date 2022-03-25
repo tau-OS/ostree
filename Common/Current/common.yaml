@@ -23,6 +23,7 @@ packages:
   - podman-docker
   - git
   - nss-altfiles
+  - grub2
   - ostree-grub2
   - efibootmgr
   - rpm-ostree
@@ -152,7 +153,6 @@ packages:
 packages-x86_64:
   - mcelog
   - microcode_ctl
-  - grub2
   - grub2-efi-x64
 packages-aarch64:
   - grub2-efi-aa64
