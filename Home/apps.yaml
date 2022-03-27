@@ -8,5 +8,6 @@ packages:
   - tau-gpg-keys
   - distrobox
   - file-roller
+  - chromium
  # - snapd
  # - snapd-compat
