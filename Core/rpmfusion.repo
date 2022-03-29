@@ -1,31 +1,31 @@
-[rpmfusion-free-35]
-name=RPM Fusion for tauOS 1 - Free
-#baseurl=http://download1.rpmfusion.org/free/fedora/releases/$releasever/Everything/$basearch/os/
-metalink=https://mirrors.rpmfusion.org/metalink?repo=free-fedora-$releasever&arch=$basearch
+[rpmfusion-free]
+name=RPM Fusion for tauOS 1.1 - Free
+#baseurl=http://download1.rpmfusion.org/free/fedora/releases/36/Everything/$basearch/os/
+metalink=https://mirrors.rpmfusion.org/metalink?repo=free-fedora-36&arch=$basearch
 enabled=0
 gpgcheck=0
 metadata_expire=1
 
-[rpmfusion-free-updates-35]
-name=RPM Fusion for tauOS 1 - Free - Updates
-#baseurl=http://download1.rpmfusion.org/free/fedora/updates/$releasever/$basearch/
-metalink=https://mirrors.rpmfusion.org/metalink?repo=free-fedora-updates-released-$releasever&arch=$basearch
+[rpmfusion-free-updates]
+name=RPM Fusion for tauOS 1.1 - Free - Updates
+#baseurl=http://download1.rpmfusion.org/free/fedora/updates/36/$basearch/
+metalink=https://mirrors.rpmfusion.org/metalink?repo=free-fedora-updates-released-36&arch=$basearch
 enabled=0
 gpgcheck=0
 metadata_expire=1d
 
-[rpmfusion-nonfree-35]
-name=RPM Fusion for tauOS 1 - Nonfree
-#baseurl=http://download1.rpmfusion.org/nonfree/fedora/releases/$releasever/Everything/$basearch/os/
-metalink=https://mirrors.rpmfusion.org/metalink?repo=nonfree-fedora-$releasever&arch=$basearch
+[rpmfusion-nonfree]
+name=RPM Fusion for tauOS 1.1 - Nonfree
+#baseurl=http://download1.rpmfusion.org/nonfree/fedora/releases/36/Everything/$basearch/os/
+metalink=https://mirrors.rpmfusion.org/metalink?repo=nonfree-fedora-36&arch=$basearch
 enabled=0
 gpgcheck=0
 metadata_expire=1d
 
-[rpmfusion-nonfree-updates-35]
-name=RPM Fusion for tauOS 1 - Nonfree - Updates
-#baseurl=http://download1.rpmfusion.org/nonfree/fedora/updates/$releasever/$basearch/
-metalink=https://mirrors.rpmfusion.org/metalink?repo=nonfree-fedora-updates-released-$releasever&arch=$basearch
+[rpmfusion-nonfree-updates]
+name=RPM Fusion for tauOS 1.1 - Nonfree - Updates
+#baseurl=http://download1.rpmfusion.org/nonfree/fedora/updates/36/$basearch/
+metalink=https://mirrors.rpmfusion.org/metalink?repo=nonfree-fedora-updates-released-36&arch=$basearch
 enabled=0
 gpgcheck=0
 metadata_expire=1d
