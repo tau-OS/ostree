@@ -1,0 +1,24 @@
+name: Compose OSTree
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  core-x86_64:
+    uses: tau-OS/github-actions/.github/workflows/compose-ostree.yml@main
+    with:
+      ostreeRef: tau/core/1.1/x86_64
+      osVariant: Core
+      upload: true
+    secrets:
+      signingKey: ${{ secrets.GPG_PRIVATE_KEY }}
+  home-x86_64:
+    uses: tau-OS/github-actions/.github/workflows/compose-ostree.yml@main
+    with:
+      ostreeRef: tau/home/1.1/x86_64
+      osVariant: Home
+      upload: true
+    secrets:
+      signingKey: ${{ secrets.GPG_PRIVATE_KEY }}
