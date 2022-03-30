@@ -11,19 +11,21 @@ jobs:
     with:
       ostreeRef: tau/core/1.1/x86_64
       osVariant: Core
+      osName: core-x86_64
   core-x86_64-sign:
     needs: core-x86_64-build
     uses: tau-OS/github-actions/.github/workflows/sign-ostree.yml@main
     if: github.ref == 'refs/heads/main'
     with:
       ostreeRef: tau/core/1.1/x86_64
+      osName: core-x86_64
     secrets:
       signingKey: ${{ secrets.signingKey }}
   core-x86_64-upload:
     needs: core-x86_64-sign
     uses: tau-OS/github-actions/.github/workflows/upload-ostree.yml@main
     with:
-      ostreeRef: tau/core/1.1/x86_64
+      osName: core-x86_64
     secrets:
       privateKey: ${{ secrets.privateKey }}
   home-x86_64-build:
@@ -31,18 +33,20 @@ jobs:
     with:
       ostreeRef: tau/home/1.1/x86_64
       osVariant: Home
+      osName: home-x86_64
   home-x86_64-sign:
     needs: home-x86_64-build
     uses: tau-OS/github-actions/.github/workflows/sign-ostree.yml@main
     if: github.ref == 'refs/heads/main'
     with:
       ostreeRef: tau/home/1.1/x86_64
+      osName: home-x86_64
     secrets:
       signingKey: ${{ secrets.signingKey }}
   home-x86_64-upload:
     needs: home-x86_64-sign
     uses: tau-OS/github-actions/.github/workflows/upload-ostree.yml@main
     with:
-      ostreeRef: tau/home/1.1/x86_64
+      osName: home-x86_64
     secrets:
       privateKey: ${{ secrets.privateKey }}
