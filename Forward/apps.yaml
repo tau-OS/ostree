@@ -9,3 +9,4 @@ packages:
   - distrobox
   - snapd
   - snapd-compat
+  - adw-gtk3

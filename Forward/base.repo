@@ -32,3 +32,13 @@ gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-rawhide-$basearch
 skip_if_unavailable=True
 
+[adw-gtk3]
+name=COPR Repository for adw-gtk3 - Provided by nickavem
+baseurl=https://download.copr.fedorainfracloud.org/coprs/nickavem/adw-gtk3/fedora-$releasever-$basearch/
+type=rpm-md
+skip_if_unavailable=True
+gpgcheck=1
+gpgkey=https://download.copr.fedorainfracloud.org/coprs/nickavem/adw-gtk3/pubkey.gpg
+repo_gpgcheck=0
+enabled=1
+enabled_metadata=1
