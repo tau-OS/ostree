@@ -9,5 +9,6 @@ packages:
   - distrobox
   - file-roller
   - chromium
+  - starship
  # - snapd
  # - snapd-compat
