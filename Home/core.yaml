@@ -8,10 +8,10 @@ repos:
   - rpmfusion-nonfree-updates
   - rpmfusion-nonfree
   - openh264
+  - adw-gtk3
 include:
   - ../Common/Current/common.yaml
   - ../Common/Current/hardware.yaml
   - ../Common/Current/gnome.yaml
   - ../Common/Current/fonts.yaml
   - apps.yaml
-  - adw-gtk3
