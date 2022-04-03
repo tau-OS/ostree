@@ -10,6 +10,6 @@ packages:
   - file-roller
   - chromium
   - starship
-  - adw-gtk3
+  - tau-themes
  # - snapd
  # - snapd-compat
