@@ -10,5 +10,6 @@ packages:
   - file-roller
   - chromium
   - starship
+  - adw-gtk3
  # - snapd
  # - snapd-compat
