@@ -2,6 +2,7 @@ packages:
   - atmel-firmware
   - b43-fwcutter
   - b43-openfwwf
+  - broadcom-wl
   - iwl100-firmware
   - iwl1000-firmware
   - iwl105-firmware
