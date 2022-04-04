@@ -11,5 +11,6 @@ packages:
   - chromium
   - starship
   - tau-themes
+  - tau-dash-to-dock
  # - snapd
  # - snapd-compat
