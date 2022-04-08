@@ -11,3 +11,4 @@ packages:
   - snapd-compat
   - adw-gtk3
   - gnome-shell-extension-appindicator
+  - tau-starship
