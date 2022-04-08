@@ -10,3 +10,4 @@ packages:
   - snapd
   - snapd-compat
   - adw-gtk3
+  - gnome-shell-extension-appindicator
