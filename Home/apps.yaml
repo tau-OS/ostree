@@ -13,5 +13,6 @@ packages:
   - tau-themes
   - tau-dash-to-dock
   - gnome-shell-extension-appindicator
+  - tau-starship
  # - snapd
  # - snapd-compat
