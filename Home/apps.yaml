@@ -14,5 +14,6 @@ packages:
   - tau-dash-to-dock
   - gnome-shell-extension-appindicator
   - tau-starship
+  - plymouth-plugin-script
  # - snapd
  # - snapd-compat
