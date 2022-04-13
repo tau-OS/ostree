@@ -15,5 +15,6 @@ packages:
   - gnome-shell-extension-appindicator
   - tau-starship
   - plymouth-plugin-script
+  - tau-plymouth
  # - snapd
  # - snapd-compat

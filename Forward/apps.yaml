@@ -12,3 +12,4 @@ packages:
   - adw-gtk3
   - gnome-shell-extension-appindicator
   - tau-starship
+  - tau-plymouth
