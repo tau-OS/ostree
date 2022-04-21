@@ -31,6 +31,7 @@ jobs:
     secrets:
       privateKey: ${{ secrets.SSH_PRIVATE_KEY }}
       teleportIdentity: ${{ secrets.TELEPORT_IDENTITY }}
+      teleportSshPrivateKey: ${{ secrets.TELEPORT_SSH_PRIVATE_KEY }}
   home-x86_64-build:
     uses: tau-OS/github-actions/.github/workflows/build-ostree.yml@main
     with:
@@ -54,3 +55,4 @@ jobs:
     secrets:
       privateKey: ${{ secrets.SSH_PRIVATE_KEY }}
       teleportIdentity: ${{ secrets.TELEPORT_IDENTITY }}
+      teleportSshPrivateKey: ${{ secrets.TELEPORT_SSH_PRIVATE_KEY }}
