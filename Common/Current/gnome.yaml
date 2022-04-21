@@ -9,7 +9,6 @@ packages:
   - gnome-shell
   - nautilus
   - polkit
-  - yelp
   - ModemManager
   - NetworkManager-adsl
   - NetworkManager-openconnect-gnome
