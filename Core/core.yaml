@@ -12,5 +12,3 @@ include:
   - ../Common/Current/common.yaml
   - ../Common/Current/hardware.yaml
   - apps.yaml
-  - ../Common/Current/migrate-flatpak.yaml
-  - ../Common/Current/migrate-tauapp.yaml

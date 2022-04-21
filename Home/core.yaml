@@ -15,3 +15,5 @@ include:
   - ../Common/Current/gnome.yaml
   - ../Common/Current/fonts.yaml
   - apps.yaml
+  - ../Common/Current/migrate-flatpak.yaml
+  - ../Common/Current/migrate-tauapp.yaml
