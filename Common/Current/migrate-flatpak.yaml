@@ -1,5 +1,4 @@
 packages:
-  - gnome-connections
   - gnome-terminal
   - baobab
   - gnome-calculator
