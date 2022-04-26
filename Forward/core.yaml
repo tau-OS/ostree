@@ -15,8 +15,3 @@ include:
   - ../Common/Forward/gnome.yaml
   - ../Common/Forward/fonts.yaml
   - apps.yaml
-rojig:
-  name: tau
-  summary: "tauOS 1.1 Forward"
-  license: GPL3
-  description: "The tauOS Forward OSTree"

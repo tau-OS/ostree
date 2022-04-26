@@ -12,8 +12,3 @@ include:
   - ../Common/Current/common.yaml
   - ../Common/Current/hardware.yaml
   - apps.yaml
-rojig:
-  name: tau
-  summary: "tauOS Core 1.1"
-  license: GPL3
-  description: "The tauOS Core OSTree"

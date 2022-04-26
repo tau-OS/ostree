@@ -17,8 +17,3 @@ include:
   - apps.yaml
   - ../Common/Current/migrate-flatpak.yaml
   - ../Common/Current/migrate-tauapp.yaml
-rojig:
-  name: tau
-  summary: "tauOS Home 1.1"
-  license: GPL3
-  description: "The tauOS Home OSTree"
