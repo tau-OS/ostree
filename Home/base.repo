@@ -2,7 +2,7 @@
 name=tauOS 1.1 Home - Base
 #baseurl=http://download.example/pub/fedora/linux/releases/36/Everything/$basearch/os/
 metalink=https://mirrors.fedoraproject.org/metalink?repo=fedora-36&arch=$basearch
-enabled=0
+enabled=1
 gpgcheck=0
 metadata_expire=1d
 
@@ -10,14 +10,14 @@ metadata_expire=1d
 name=tauOS 1.1 Home - Updates
 #baseurl=http://download.example/pub/fedora/linux/updates/36/Everything/$basearch/
 metalink=https://mirrors.fedoraproject.org/metalink?repo=updates-released-f36&arch=$basearch
-enabled=0
+enabled=1
 gpgcheck=0
 metadata_expire=1d
 
 [tau]
 name=tauOS 1.1 Home - Configuration
 baseurl=https://repo.tauos.co/releases/1.1
-enabled=0
+enabled=1
 gpgcheck=0
 metadata_expire=1d
 
