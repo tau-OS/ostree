@@ -8,7 +8,6 @@ repos:
   - rpmfusion-nonfree-updates
   - rpmfusion-nonfree
   - openh264
-  - adw-gtk3
 include:
   - ../Common/Forward/common.yaml
   - ../Common/Forward/hardware.yaml

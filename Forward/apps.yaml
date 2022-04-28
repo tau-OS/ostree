@@ -7,9 +7,7 @@ packages:
   - tau-repos-ostree
   - tau-gpg-keys
   - distrobox
-  - snapd
-  - snapd-compat
-  - adw-gtk3
+  - tau-themes
   - gnome-shell-extension-appindicator
   - tau-starship
   - tau-plymouth

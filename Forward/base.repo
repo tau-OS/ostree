@@ -2,7 +2,7 @@
 name=tauOS Forward - Base
 baseurl=https://mirrors.rit.edu/fedora/fedora/linux/development/rawhide/Everything/$basearch/os/
 #metalink=https://mirrors.fedoraproject.org/metalink?repo=fedora-rawhide&arch=$basearch
-enabled=0
+enabled=1
 gpgcheck=0
 metadata_expire=1d
 
@@ -10,14 +10,14 @@ metadata_expire=1d
 name=tauOS 1 Home - Updates
 baseurl=http://download.fedoraproject.org/pub/fedora/linux/updates/rawhide/Everything/$basearch/
 #metalink=https://mirrors.fedoraproject.org/metalink?repo=updates-released-rawhide&arch=$basearch
-enabled=0
+enabled=1
 gpgcheck=0
 metadata_expire=1d
 
 [tau]
 name=tauOS 1 Home - Configuration
 baseurl=https://repo.tauos.co/releases/forward
-enabled=0
+enabled=1
 gpgcheck=0
 metadata_expire=1d
 
@@ -31,14 +31,3 @@ repo_gpgcheck=0
 gpgcheck=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-rawhide-$basearch
 skip_if_unavailable=True
-
-[adw-gtk3]
-name=COPR Repository for adw-gtk3 - Provided by nickavem
-baseurl=https://download.copr.fedorainfracloud.org/coprs/nickavem/adw-gtk3/fedora-$releasever-$basearch/
-type=rpm-md
-skip_if_unavailable=True
-gpgcheck=1
-gpgkey=https://download.copr.fedorainfracloud.org/coprs/nickavem/adw-gtk3/pubkey.gpg
-repo_gpgcheck=0
-enabled=1
-enabled_metadata=1
