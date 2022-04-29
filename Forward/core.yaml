@@ -1,7 +1,6 @@
 ref: tau/forward/${basearch}
 repos:
   - base
-  - updates
   - tau
   - rpmfusion-free-updates
   - rpmfusion-free
