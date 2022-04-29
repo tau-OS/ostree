@@ -13,3 +13,10 @@ include:
   - ../Common/Forward/gnome.yaml
   - ../Common/Forward/fonts.yaml
   - apps.yaml
+exclude-packages:
+- fedora-release-identity
+- generic-release
+- fedora-repos
+- fedora-release
+- fedora-release-identity-*
+- fedora-logos
