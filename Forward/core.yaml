@@ -1,4 +1,4 @@
-ref: tau/forward/322/${basearch}
+ref: tau/forward/${basearch}
 repos:
   - base
   - updates

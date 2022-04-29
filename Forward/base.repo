@@ -7,7 +7,7 @@ gpgcheck=0
 metadata_expire=1d
 
 [updates]
-name=tauOS 1 Home - Updates
+name=tauOS Forward - Updates
 baseurl=http://download.fedoraproject.org/pub/fedora/linux/updates/rawhide/Everything/$basearch/
 #metalink=https://mirrors.fedoraproject.org/metalink?repo=updates-released-rawhide&arch=$basearch
 enabled=1
@@ -15,8 +15,8 @@ gpgcheck=0
 metadata_expire=1d
 
 [tau]
-name=tauOS 1 Home - Configuration
-baseurl=https://repo.tauos.co/releases/forward
+name=tauOS 1.1 - Configuration
+baseurl=https://repo.tauos.co/releases/1.1
 enabled=1
 gpgcheck=0
 metadata_expire=1d

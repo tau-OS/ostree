@@ -17,5 +17,3 @@ packages:
   - plymouth-plugin-script
   - tau-plymouth
   - tau-hydrogen
- # - snapd
- # - snapd-compat

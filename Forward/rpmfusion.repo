@@ -1,5 +1,5 @@
 [rpmfusion-free]
-name=RPM Fusion for tauOS Forward - Free
+name=RPM Fusion for tauOS Forward - Free and Open Source
 #baseurl=http://download1.rpmfusion.org/free/fedora/releases/rawhide/Everything/$basearch/os/
 metalink=https://mirrors.rpmfusion.org/metalink?repo=free-fedora-rawhide&arch=$basearch
 enabled=0
@@ -7,7 +7,7 @@ gpgcheck=0
 metadata_expire=1
 
 [rpmfusion-free-updates]
-name=RPM Fusion for tauOS Forward - Free - Updates
+name=RPM Fusion for tauOS Forward - Free and Open Source - Updates
 #baseurl=http://download1.rpmfusion.org/free/fedora/updates/rawhide/$basearch/
 metalink=https://mirrors.rpmfusion.org/metalink?repo=free-fedora-updates-released-rawhide&arch=$basearch
 enabled=0
@@ -15,7 +15,7 @@ gpgcheck=0
 metadata_expire=1d
 
 [rpmfusion-nonfree]
-name=RPM Fusion for tauOS 1 - Nonfree
+name=RPM Fusion for tauOS 1 - Proprietary 
 #baseurl=http://download1.rpmfusion.org/nonfree/fedora/releases/rawhide/Everything/$basearch/os/
 metalink=https://mirrors.rpmfusion.org/metalink?repo=nonfree-fedora-rawhide&arch=$basearch
 enabled=0
@@ -23,7 +23,7 @@ gpgcheck=0
 metadata_expire=1d
 
 [rpmfusion-nonfree-updates]
-name=RPM Fusion for tauOS 1 - Nonfree - Updates
+name=RPM Fusion for tauOS 1 - Proprietary - Updates
 #baseurl=http://download1.rpmfusion.org/nonfree/fedora/updates/rawhide/$basearch/
 metalink=https://mirrors.rpmfusion.org/metalink?repo=nonfree-fedora-updates-released-rawhide&arch=$basearch
 enabled=0
