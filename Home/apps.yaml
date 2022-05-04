@@ -13,6 +13,7 @@ packages:
   - tau-themes
   - tau-dash-to-dock
   - gnome-shell-extension-appindicator
+  - gnome-shell-extension-user-theme
   - tau-starship
   - plymouth-plugin-script
   - tau-plymouth
