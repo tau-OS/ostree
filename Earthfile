@@ -14,3 +14,6 @@ build-core:
 
 build-home:
   BUILD --platform=linux/amd64 --platform=linux/arm64 +build --VARIANT=Home
+
+build-forward:
+  BUILD --platform=linux/amd64 --platform=linux/arm64 +build --VARIANT=Forward
