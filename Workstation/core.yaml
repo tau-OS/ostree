@@ -8,10 +8,10 @@ repos:
   - openh264
   
 include:
-  - ../Common/Current/common.yaml
-  - ../Common/Current/hardware.yaml
-  - ../Common/Current/gnome.yaml
-  - ../Common/Current/fonts.yaml
+  - ../Common/Enterprise/common.yaml
+  - ../Common/Enterprise/hardware.yaml
+  - ../Common/Enterprise/gnome.yaml
+  - ../Common/Enterprise/fonts.yaml
   - apps.yaml
-  - ../Common/Current/migrate-flatpak.yaml
-  - ../Common/Current/migrate-tauapp.yaml
+  - ../Common/Enterprise/migrate-flatpak.yaml
+  - ../Common/Enterprise/migrate-tauapp.yaml
