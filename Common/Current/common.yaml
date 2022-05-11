@@ -59,6 +59,7 @@ packages:
   - setup
   - shadow-utils
   - sssd-common
+  - plymouth-plugin-script
   - sssd-kcm
   - sudo
   - systemd
