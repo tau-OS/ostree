@@ -152,7 +152,6 @@ packages:
   - sl
   - tau-release
   - tau-release-identity
-  - tau-release-ostree-desktop
   - tau-repos
   - tau-repos-ostree
   - tau-gpg-keys

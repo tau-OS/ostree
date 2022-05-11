@@ -9,5 +9,6 @@ packages:
   - gnome-shell-extension-appindicator
   - gnome-shell-extension-user-theme
   - tau-starship
+  - tau-release-ostree-desktop
   - tau-plymouth
   - tau-hydrogen
