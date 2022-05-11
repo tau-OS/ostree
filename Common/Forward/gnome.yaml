@@ -1,7 +1,6 @@
 packages:
   - dconf
   - gdm
-  - gnome-boxes
   - gnome-initial-setup
   - gnome-session-wayland-session
   - gnome-session-xsession
