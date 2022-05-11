@@ -1,0 +1,14 @@
+ref: tau/core/1.1/${basearch}
+repos:
+  - base
+  - updates
+  - tau
+  - rpmfusion-free-updates
+  - rpmfusion-free
+  - rpmfusion-nonfree-updates
+  - rpmfusion-nonfree
+  - openh264
+include:
+  - ../Common/Current/common.yaml
+  - ../Common/Current/hardware.yaml
+  - apps.yaml

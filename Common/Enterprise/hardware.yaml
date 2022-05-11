@@ -1,0 +1,46 @@
+packages:
+  - atmel-firmware
+  - b43-fwcutter
+  - b43-openfwwf
+  - iwl100-firmware
+  - iwl1000-firmware
+  - iwl105-firmware
+  - iwl135-firmware
+  - iwl2000-firmware
+  - iwl2030-firmware
+  - iwl3160-firmware
+  - iwl3945-firmware
+  - iwl4965-firmware
+  - iwl5000-firmware
+  - iwl5150-firmware
+  - iwl6000-firmware
+  - iwl6000g2a-firmware
+  - iwl6000g2b-firmware
+  - iwl6050-firmware
+  - iwl7260-firmware
+  - iwlax2xx-firmware
+  - libertas-usb8388-firmware
+  - usb_modeswitch
+  - zd1211-firmware
+  - acpi
+  - acpitool
+  - alsa-firmware
+  - gpsd
+  - hddtemp
+  - hdparm
+  - iscan-firmware
+  - libifp
+  - liquidio-firmware
+  - lsscsi
+  - mrvlprestera-firmware
+  - multican
+  - netronome-firmware
+  - opensc
+  - pcsc-lite
+  - pcsc-lite-ccid
+  - radeontop
+  - wpan-tools
+packages-aarch64:
+  - bcm283x-firmware
+packages-x86_64:
+  - akmod-nvidia

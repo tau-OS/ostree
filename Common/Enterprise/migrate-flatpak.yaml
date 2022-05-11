@@ -1,0 +1,16 @@
+packages:
+  - gnome-terminal
+  - baobab
+  - gnome-calculator
+  - gnome-calendar
+  - gnome-characters
+  - gnome-clocks
+  - gnome-color-manager
+  - gnome-contacts
+  - gnome-disk-utility
+  - gnome-font-viewer
+  - gnome-maps
+  - gnome-photos
+  - gnome-remote-desktop
+  - gnome-weather
+  - cheese

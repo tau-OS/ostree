@@ -1,0 +1,38 @@
+[base]
+name=tauOS Workstation 22 - BaseOS
+baseurl=https://repo.almalinux.org/almalinux/9/BaseOS/$basearch/os/
+enabled=1
+gpgcheck=0
+metadata_expire=1d
+
+[updates]
+name=tauOS Workstation 22 - Modules
+baseurl=https://repo.almalinux.org/almalinux/9/AppStream/$basearch/os/
+enabled=1
+gpgcheck=0
+metadata_expire=1d
+
+[updates]
+name=tauOS Workstation 22 - Development Tools
+baseurl=https://repo.almalinux.org/almalinux/9/CRB/$basearch/os/
+enabled=1
+gpgcheck=0
+metadata_expire=1d
+
+[tau]
+name=tauOS Home 1.1 - Configuration
+baseurl=https://repo.tauos.co/releases/1.1
+enabled=1
+gpgcheck=0
+metadata_expire=1d
+
+[openh264]
+name=Cisco openh264
+metalink=https://mirrors.fedoraproject.org/metalink?repo=fedora-cisco-openh264-36&arch=$basearch
+type=rpm
+enabled=1
+metadata_expire=14d
+repo_gpgcheck=0
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-36-$basearch
+skip_if_unavailable=True
