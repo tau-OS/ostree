@@ -12,3 +12,5 @@ packages:
   - tau-release-ostree-desktop
   - tau-plymouth
   - tau-hydrogen
+  - tau-manrope-fonts 
+  - tau-notification-manager
