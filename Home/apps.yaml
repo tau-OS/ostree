@@ -1,16 +1,17 @@
 packages:
-  - tau-wallpapers
   - distrobox
   - file-roller
   - chromium
   - starship
-  - tau-helium
-  - tau-dash-to-dock
   - gnome-shell-extension-appindicator
   - gnome-shell-extension-user-theme
+  - tau-wallpapers
   - tau-starship
   - tau-release-ostree-desktop
   - tau-plymouth
+  - tau-helium
+  - tau-dash-to-dock
   - tau-hydrogen
   - tau-manrope-fonts 
   - tau-notification-manager
+  - tau-top-bar
