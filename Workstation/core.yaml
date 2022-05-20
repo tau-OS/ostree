@@ -7,7 +7,10 @@ repos:
   - rpmfusion-free
   - rpmfusion-nonfree
   - openh264
-  - hyperscale
+  - hyperscale-main
+  - hyperscale-spin
+  - hyperscale-ex
+  - epel
   
 include:
   - ../Common/Enterprise/common.yaml
