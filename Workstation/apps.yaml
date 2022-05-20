@@ -4,7 +4,6 @@ packages:
   - tau-helium
   - tau-dash-to-dock
   - gnome-shell-extension-user-theme
-  - tau-starship
   - tau-release-desktop
   - tau-plymouth
   - tau-hydrogen
