@@ -56,3 +56,27 @@ jobs:
       teleportIdentity: ${{ secrets.TELEPORT_IDENTITY }}
       repoKnownHosts: ${{ secrets.REPO_KNOWN_HOSTS }}
       repoPrivateKey: ${{ secrets.REPO_PRIVATE_KEY }}
+  workstation-x86_64-build:
+    uses: tau-OS/github-actions/.github/workflows/build-ostree.yml@main
+    with:
+      ostreeRef: tau/workstation/22/x86_64
+      osVariant: Workstation
+      osName: workstation-x86_64
+  workstation-x86_64-sign:
+    needs: workstation-x86_64-build
+    uses: tau-OS/github-actions/.github/workflows/sign-ostree.yml@main
+    if: github.ref == 'refs/heads/main'
+    with:
+      ostreeRef: tau/workstation/22/x86_64
+      osName: workstation-x86_64
+    secrets:
+      signingKey: ${{ secrets.GPG_PRIVATE_KEY }}
+  workstation-x86_64-upload:
+    needs: workstation-x86_64-sign
+    uses: tau-OS/github-actions/.github/workflows/upload-ostree.yml@main
+    with:
+      osName: workstation-x86_64
+    secrets:
+      teleportIdentity: ${{ secrets.TELEPORT_IDENTITY }}
+      repoKnownHosts: ${{ secrets.REPO_KNOWN_HOSTS }}
+      repoPrivateKey: ${{ secrets.REPO_PRIVATE_KEY }}
