@@ -149,3 +149,6 @@ packages-aarch64:
   - grub2-efi-aa64
   - uboot-images-armv8
   - uboot-tools
+exclude-packages:
+  - almalinux-logos
+  - almalinux-release
