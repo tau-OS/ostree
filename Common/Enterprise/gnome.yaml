@@ -17,8 +17,6 @@ packages:
   - NetworkManager-ssh-gnome
   - NetworkManager-vpnc-gnome
   - NetworkManager-wwan
-  - PackageKit-command-not-found
-  - PackageKit-gtk3-module
   - adobe-source-code-pro-fonts
   - at-spi2-atk
   - at-spi2-core
