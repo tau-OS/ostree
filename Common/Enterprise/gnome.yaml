@@ -18,7 +18,6 @@ packages:
   - chrome-gnome-shell
   - eog
   - evince
-  - evince-djvu
   - evince-nautilus
   - glib-networking
   - gnome-bluetooth
@@ -27,10 +26,6 @@ packages:
   - gnome-terminal-nautilus
   - gnome-themes-extra
   - gnome-user-docs
-  - gnome-user-share
-  - gvfs-afc
-  - gvfs-afp
-  - gvfs-archive
   - gvfs-fuse
   - gvfs-goa
   - gvfs-gphoto2
