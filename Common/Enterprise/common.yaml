@@ -47,7 +47,6 @@ packages:
   - kbd
   - less
   - man-db
-  - ncurses
   - openssh-clients
   - openssh-server
   - parted
@@ -67,7 +66,6 @@ packages:
   - util-linux
   - vim-minimal
   - NetworkManager
-  - dracut-config-rescue
   - fedora-repos-modular
   - firewalld
   - plymouth
@@ -76,9 +74,7 @@ packages:
   - zram-generator-defaults
   - dracut-config-generic
   - initscripts
-  - abrt-cli
   - acl
-  - at
   - attr
   - bash-completion
   - bc
@@ -88,7 +84,6 @@ packages:
   - cifs-utils
   - compsize
   - cpio
-  - crontabs
   - cryptsetup
   - cyrus-sasl-plain
   - dbus
@@ -107,7 +102,6 @@ packages:
   - jwhois
   - logrotate
   - lsof
-  - mailcap
   - man-pages
   - mdadm
   - mlocate
