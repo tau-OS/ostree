@@ -1,7 +1,8 @@
-ref: tau/home/1.1/${basearch}
+ref: tau/workstation/22/${basearch}
 repos:
-  - base
-  - updates
+  - baseos
+  - appstream
+  - crb
   - tau
   - rpmfusion-free
   - rpmfusion-nonfree

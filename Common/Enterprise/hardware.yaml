@@ -1,7 +1,4 @@
 packages:
-  - atmel-firmware
-  - b43-fwcutter
-  - b43-openfwwf
   - iwl100-firmware
   - iwl1000-firmware
   - iwl105-firmware
@@ -22,8 +19,6 @@ packages:
   - libertas-usb8388-firmware
   - usb_modeswitch
   - zd1211-firmware
-  - acpi
-  - acpitool
   - alsa-firmware
   - gpsd
   - hddtemp
