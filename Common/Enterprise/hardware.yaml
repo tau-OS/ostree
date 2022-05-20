@@ -42,5 +42,3 @@ packages:
   - wpan-tools
 packages-aarch64:
   - bcm283x-firmware
-packages-x86_64:
-  - akmod-nvidia
