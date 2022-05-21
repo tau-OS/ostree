@@ -134,8 +134,6 @@ packages:
   - efibootmgr
   - x264
   - x264-libs
-  - gstreamer1-plugin-openh264
-  - openh264
   - sl
   - tau-release
   - tau-repos
