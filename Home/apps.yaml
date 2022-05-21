@@ -7,7 +7,7 @@ packages:
   - gnome-shell-extension-user-theme
   - tau-wallpapers
   - tau-starship
-  - tau-release-ostree-desktop
+  - tau-release-desktop
   - tau-plymouth
   - tau-helium
   - tau-dash-to-dock
