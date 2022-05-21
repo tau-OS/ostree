@@ -1,34 +1,61 @@
-[base]
-name=tauOS 1.1 Home - Base
-#baseurl=http://download.example/pub/fedora/linux/releases/36/Everything/$basearch/os/
-metalink=https://mirrors.fedoraproject.org/metalink?repo=fedora-36&arch=$basearch
+[baseos]
+name=tauOS Server 22 - Base
+baseurl=http://repo.almalinux.org/almalinux/9/BaseOS/$basearch/os/
 enabled=1
 gpgcheck=0
 metadata_expire=1d
 
-[updates]
-name=tauOS 1.1 Home - Updates
-#baseurl=http://download.example/pub/fedora/linux/updates/36/Everything/$basearch/
-metalink=https://mirrors.fedoraproject.org/metalink?repo=updates-released-f36&arch=$basearch
+[appstream]
+name=tauOS Server 22 - Main and Modular
+baseurl=http://repo.almalinux.org/almalinux/9/AppStream/$basearch/os/
+enabled=1
+gpgcheck=0
+metadata_expire=1d
+
+[crb]
+name=tauOS Server 22 - Red Hat CodeReady Builder
+baseurl=http://repo.almalinux.org/almalinux/9/CRB/$basearch/os/
 enabled=1
 gpgcheck=0
 metadata_expire=1d
 
 [tau]
-name=tauOS 1.1 Home - Configuration
+name=tauOS Home 1.1 - Configuration
 baseurl=https://repo.tauos.co/releases/1.1
 enabled=1
+priority=19
 gpgcheck=0
 metadata_expire=1d
 
-[openh264]
-name=Cisco openh264
-metalink=https://mirrors.fedoraproject.org/metalink?repo=fedora-cisco-openh264-36&arch=$basearch
-type=rpm
+[hyperscale-ex]
+name=Hyperscale Experimental Components
+# Special Thanks to Neal Gompa of Hyperscale SIG!
+baseurl=http://mirror.stream.centos.org/SIGs/9-stream/hyperscale/$basearch/packages-experimental/
 enabled=1
-metadata_expire=14d
-repo_gpgcheck=0
 gpgcheck=0
-gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-fedora-36-$basearch
-skip_if_unavailable=True
+priority=50
+metadata_expire=1d
 
+[hyperscale-spin]
+name=Hyperscale Spin Components
+baseurl=http://mirror.stream.centos.org/SIGs/9-stream/hyperscale/$basearch/packages-spin/
+enabled=1
+gpgcheck=0
+priority=50
+metadata_expire=1d
+
+[hyperscale-main]
+name=Hyperscale Components
+baseurl=http://mirror.stream.centos.org/SIGs/9-stream/hyperscale/$basearch/packages-main/
+enabled=1
+gpgcheck=0
+priority=50
+metadata_expire=1d
+
+[epel]
+name= Extra Packages for Enterprise Linux
+baseurl=https://dl.fedoraproject.org/pub/epel/9/Everything/$basearch/
+gpgkey=url:https://dl.fedoraproject.org/pub/epel/RPM-GPG-KEY-EPEL-9
+enabled=1
+gpgcheck=0
+metadata_expire=1d

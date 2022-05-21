@@ -6,7 +6,6 @@ repos:
   - tau
   - rpmfusion-free
   - rpmfusion-nonfree
-  - openh264
   - hyperscale-main
   - hyperscale-spin
   - hyperscale-ex
