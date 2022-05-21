@@ -146,7 +146,6 @@ packages:
   - openh264
   - sl
   - tau-release
-  - tau-release-identity
   - tau-repos
   - tau-repos-ostree
   - tau-gpg-keys
