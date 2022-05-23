@@ -1,7 +1,7 @@
 packages:
   - distrobox
   - file-roller
-  - chromium
+  - chromium-freeworld
   - starship
   - gnome-shell-extension-appindicator
   - gnome-shell-extension-user-theme
