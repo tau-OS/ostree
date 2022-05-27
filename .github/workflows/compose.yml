@@ -209,8 +209,4 @@ jobs:
       teleportIdentity: ${{ secrets.TELEPORT_IDENTITY }}
       repoKnownHosts: ${{ secrets.REPO_KNOWN_HOSTS }}
       repoPrivateKey: ${{ secrets.REPO_PRIVATE_KEY }}
-  owo:
-    runs-on: self-hosted
-    steps:
-      - run: echo "owo"
     
