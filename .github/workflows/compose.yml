@@ -62,7 +62,7 @@ jobs:
       ostreeRef: tau/workstation/22/x86_64
       osVariant: Workstation
       osName: workstation-x86_64
-      unifiedCore: true
+      unifiedCore: false
   workstation-x86_64-sign:
     needs: workstation-x86_64-build
     uses: tau-OS/github-actions/.github/workflows/sign-ostree.yml@main
@@ -87,7 +87,7 @@ jobs:
       ostreeRef: tau/workstation/22/x86_64
       osVariant: Server
       osName: server-x86_64
-      unifiedCore: true
+      unifiedCore: false
   server-x86_64-sign:
     needs: server-x86_64-build
     uses: tau-OS/github-actions/.github/workflows/sign-ostree.yml@main
@@ -105,7 +105,7 @@ jobs:
     secrets:
       teleportIdentity: ${{ secrets.TELEPORT_IDENTITY }}
       repoKnownHosts: ${{ secrets.REPO_KNOWN_HOSTS }}
-      repoPrivateKey: ${{ secrets.REPO_PRIVATE_KEY }}nya
+      repoPrivateKey: ${{ secrets.REPO_PRIVATE_KEY }}
 
   core-aarch64-build:
     uses: tau-OS/github-actions/.github/workflows/build-ostree.yml@main
@@ -113,7 +113,7 @@ jobs:
       ostreeRef: tau/core/1.1/aarch64
       osVariant: Core
       osName: core-aarch64
-      runs-on: [self-hosted, ARM64]
+      aarch64: true
   core-aarch64-sign:
     needs: core-aarch64-build
     uses: tau-OS/github-actions/.github/workflows/sign-ostree.yml@main
@@ -138,7 +138,7 @@ jobs:
       ostreeRef: tau/home/1.1/aarch64
       osVariant: Home
       osName: home-aarch64
-      runs-on: [self-hosted, ARM64]
+      aarch64: true
   home-aarch64-sign:
     needs: home-aarch64-build
     uses: tau-OS/github-actions/.github/workflows/sign-ostree.yml@main
@@ -163,8 +163,8 @@ jobs:
       ostreeRef: tau/workstation/22/aarch64
       osVariant: Workstation
       osName: workstation-aarch64
-      unifiedCore: true
-      runs-on: [self-hosted, ARM64]
+      unifiedCore: false
+      aarch64: true
   workstation-aarch64-sign:
     needs: workstation-aarch64-build
     uses: tau-OS/github-actions/.github/workflows/sign-ostree.yml@main
@@ -189,8 +189,8 @@ jobs:
       ostreeRef: tau/workstation/22/aarch64
       osVariant: Server
       osName: server-aarch64
-      unifiedCore: true
-      runs-on: [self-hosted, ARM64]
+      unifiedCore: false
+      aarch64: true
   server-aarch64-sign:
     needs: server-aarch64-build
     uses: tau-OS/github-actions/.github/workflows/sign-ostree.yml@main
