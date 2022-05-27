@@ -62,7 +62,7 @@ jobs:
       ostreeRef: tau/workstation/22/x86_64
       osVariant: Workstation
       osName: workstation-x86_64
-      unifiedCore: false
+      unifiedCore: true
   workstation-x86_64-sign:
     needs: workstation-x86_64-build
     uses: tau-OS/github-actions/.github/workflows/sign-ostree.yml@main
@@ -87,7 +87,7 @@ jobs:
       ostreeRef: tau/workstation/22/x86_64
       osVariant: Server
       osName: server-x86_64
-      unifiedCore: false
+      unifiedCore: true
   server-x86_64-sign:
     needs: server-x86_64-build
     uses: tau-OS/github-actions/.github/workflows/sign-ostree.yml@main
@@ -163,7 +163,7 @@ jobs:
       ostreeRef: tau/workstation/22/aarch64
       osVariant: Workstation
       osName: workstation-aarch64
-      unifiedCore: false
+      unifiedCore: true
       runs-on: [self-hosted, ARM64]
   workstation-aarch64-sign:
     needs: workstation-aarch64-build
@@ -189,7 +189,7 @@ jobs:
       ostreeRef: tau/workstation/22/aarch64
       osVariant: Server
       osName: server-aarch64
-      unifiedCore: false
+      unifiedCore: true
       runs-on: [self-hosted, ARM64]
   server-aarch64-sign:
     needs: server-aarch64-build
