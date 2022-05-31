@@ -15,5 +15,3 @@ include:
   - ../Common/Enterprise/common.yaml
   - ../Common/Enterprise/hardware.yaml
   - apps.yaml
-  - ../Common/Enterprise/migrate-flatpak.yaml
-  - ../Common/Enterprise/migrate-tauapp.yaml

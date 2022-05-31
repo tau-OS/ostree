@@ -19,6 +19,13 @@ enabled=1
 gpgcheck=0
 metadata_expire=1d
 
+[extras]
+name=tauOS Server 22 - Extras
+baseurl=http://repo.almalinux.org/almalinux/9/extras/$basearch/os/
+enabled=1
+gpgcheck=0
+metadata_expire=1d
+
 [tau]
 name=tauOS Home 1.1 - Configuration
 baseurl=https://repo.tauos.co/releases/1.1
