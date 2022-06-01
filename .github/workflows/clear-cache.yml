@@ -1,3 +1,5 @@
+name: Clear Cache
+
 on: workflow_dispatch
 jobs:
   flush:
