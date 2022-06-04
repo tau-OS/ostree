@@ -10,6 +10,7 @@ repos:
   - hyperscale-spin
   - hyperscale-ex
   - epel
+  - extras
   
 include:
   - ../Common/Enterprise/common.yaml
