@@ -61,7 +61,6 @@ packages:
   - xdg-user-dirs-gtk
   - yelp
   - gnome-tweaks
-  - libreoffice
   - glx-utils
   - mesa-dri-drivers
   - mesa-vulkan-drivers
