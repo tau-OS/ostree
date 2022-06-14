@@ -1,4 +1,5 @@
 packages:
+  - glibc-all-langpacks
   - dconf
   - gdm
   - gnome-initial-setup
