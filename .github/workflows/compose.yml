@@ -29,7 +29,7 @@ jobs:
     with:
       osName: core-x86_64
     secrets:
-      teleportIdentity: ${{ secrets.TELEPORT_IDENTITY }}
+     repoIP: ${{ secrets.REPO_IP }}
       repoKnownHosts: ${{ secrets.REPO_KNOWN_HOSTS }}
       repoPrivateKey: ${{ secrets.REPO_PRIVATE_KEY }}
   home-x86_64-build:
@@ -53,7 +53,7 @@ jobs:
     with:
       osName: home-x86_64
     secrets:
-      teleportIdentity: ${{ secrets.TELEPORT_IDENTITY }}
+     repoIP: ${{ secrets.REPO_IP }}
       repoKnownHosts: ${{ secrets.REPO_KNOWN_HOSTS }}
       repoPrivateKey: ${{ secrets.REPO_PRIVATE_KEY }}
   workstation-x86_64-build:
@@ -78,7 +78,7 @@ jobs:
     with:
       osName: workstation-x86_64
     secrets:
-      teleportIdentity: ${{ secrets.TELEPORT_IDENTITY }}
+     repoIP: ${{ secrets.REPO_IP }}
       repoKnownHosts: ${{ secrets.REPO_KNOWN_HOSTS }}
       repoPrivateKey: ${{ secrets.REPO_PRIVATE_KEY }}
   server-x86_64-build:
@@ -103,7 +103,7 @@ jobs:
     with:
       osName: server-x86_64
     secrets:
-      teleportIdentity: ${{ secrets.TELEPORT_IDENTITY }}
+     repoIP: ${{ secrets.REPO_IP }}
       repoKnownHosts: ${{ secrets.REPO_KNOWN_HOSTS }}
       repoPrivateKey: ${{ secrets.REPO_PRIVATE_KEY }}
 
@@ -129,7 +129,7 @@ jobs:
     with:
       osName: core-aarch64
     secrets:
-      teleportIdentity: ${{ secrets.TELEPORT_IDENTITY }}
+     repoIP: ${{ secrets.REPO_IP }}
       repoKnownHosts: ${{ secrets.REPO_KNOWN_HOSTS }}
       repoPrivateKey: ${{ secrets.REPO_PRIVATE_KEY }}
   home-aarch64-build:
@@ -154,7 +154,7 @@ jobs:
     with:
       osName: home-aarch64
     secrets:
-      teleportIdentity: ${{ secrets.TELEPORT_IDENTITY }}
+     repoIP: ${{ secrets.REPO_IP }}
       repoKnownHosts: ${{ secrets.REPO_KNOWN_HOSTS }}
       repoPrivateKey: ${{ secrets.REPO_PRIVATE_KEY }}
   workstation-aarch64-build:
@@ -180,7 +180,7 @@ jobs:
     with:
       osName: workstation-aarch64
     secrets:
-      teleportIdentity: ${{ secrets.TELEPORT_IDENTITY }}
+     repoIP: ${{ secrets.REPO_IP }}
       repoKnownHosts: ${{ secrets.REPO_KNOWN_HOSTS }}
       repoPrivateKey: ${{ secrets.REPO_PRIVATE_KEY }}
   server-aarch64-build:
@@ -206,7 +206,7 @@ jobs:
     with:
       osName: server-aarch64
     secrets:
-      teleportIdentity: ${{ secrets.TELEPORT_IDENTITY }}
+     repoIP: ${{ secrets.REPO_IP }}
       repoKnownHosts: ${{ secrets.REPO_KNOWN_HOSTS }}
       repoPrivateKey: ${{ secrets.REPO_PRIVATE_KEY }}
     
