@@ -3,5 +3,3 @@ packages:
   - tau-settings
   - gnome-software #Migrate to Catalogue
   - tau-gsettings-desktop-schemas
-exclude-packages:
-  - gsettings-desktop-schemas # Exclude the recommended version, so we can use our own
