@@ -2,4 +2,3 @@ packages:
   #- gnome-control-center #Migrate to tau-settings
   - tau-settings
   - gnome-software #Migrate to Catalogue
-  - tau-gsettings-desktop-schemas
