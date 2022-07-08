@@ -16,3 +16,4 @@ packages:
   - tau-notification-manager
   - tau-top-bar
   - tau-gsettings-schemas
+  - xdg-desktop-portal-gnome-tau
