@@ -1,0 +1,26 @@
+name: Compose OSTree
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  compose:
+    uses: tau-OS/github-actions/.github/workflows/ostree.yml@main
+    matrix:
+      runsOn: [ubuntu-latest, ARM64]
+      variant: [Core, Home, Server, Workstation]
+    with:
+      osVariant: ${{ matrix.variant }}
+      unifiedCore: false
+      gpgKeyID: 5D155AF6F77C8C9B
+      upload: ${{ github.ref == 'refs/heads/main' }}
+      runsOn: ${{ matrix.runsOn }}
+    secrets:
+      repoIP: ${{ secrets.REPO_IP }}
+      repoKnownHosts: ${{ secrets.REPO_KNOWN_HOSTS }}
+      repoPrivateKey: ${{ secrets.REPO_PRIVATE_KEY }}
+      signingKey: ${{ secrets.GPG_PRIVATE_KEY }}
