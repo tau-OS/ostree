@@ -10,16 +10,12 @@ on:
 jobs:
   compose:
     uses: tau-OS/github-actions/.github/workflows/ostree.yml@main
-    strategy:
-      matrix:
-        runsOn: [ubuntu-latest, ARM64]
-        variant: [Core, Home, Server, Workstation]
     with:
-      osVariant: ${{ matrix.variant }}
+      osVariant: "[ubuntu-latest, ARM64]"
       unifiedCore: false
       gpgKeyID: 5D155AF6F77C8C9B
       upload: ${{ github.ref == 'refs/heads/main' }}
-      runsOn: ${{ matrix.runsOn }}
+      runsOn: "[ubuntu-latest, ARM64]"
     secrets:
       repoIP: ${{ secrets.REPO_IP }}
       repoKnownHosts: ${{ secrets.REPO_KNOWN_HOSTS }}
