@@ -10,9 +10,10 @@ on:
 jobs:
   compose:
     uses: tau-OS/github-actions/.github/workflows/ostree.yml@main
-    matrix:
-      runsOn: [ubuntu-latest, ARM64]
-      variant: [Core, Home, Server, Workstation]
+    strategy:
+      matrix:
+        runsOn: [ubuntu-latest, ARM64]
+        variant: [Core, Home, Server, Workstation]
     with:
       osVariant: ${{ matrix.variant }}
       unifiedCore: false
