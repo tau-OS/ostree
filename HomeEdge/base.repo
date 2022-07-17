@@ -1,7 +1,7 @@
 [base]
 name=tauOS 1.1 Home - Base
-#baseurl=http://download.example/pub/fedora/linux/development/rawhide/Everything/$basearch/debug/tree/
-metalink=https://mirrors.fedoraproject.org/metalink?repo=rawhide-debug&arch=$basearch
+#baseurl=http://download.example/pub/fedora/linux/development/rawhide//Everything/$basearch/os/
+metalink=https://mirrors.fedoraproject.org/metalink?repo=rawhide&arch=$basearch
 enabled=1
 gpgcheck=0
 metadata_expire=1d
