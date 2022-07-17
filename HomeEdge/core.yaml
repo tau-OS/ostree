@@ -1,11 +1,8 @@
 ref: tau/home/edge/${basearch}
 repos:
   - base
-  - updates
   - tau
-  - rpmfusion-free-updates
   - rpmfusion-free
-  - rpmfusion-nonfree-updates
   - rpmfusion-nonfree
   - openh264
   
