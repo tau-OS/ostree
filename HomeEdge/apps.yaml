@@ -1,0 +1,21 @@
+packages:
+  - distrobox
+  - file-roller
+  - chromium-freeworld
+  - starship
+  - gnome-shell-extension-appindicator
+  - gnome-shell-extension-user-theme
+  - tau-wallpapers
+  - tau-starship
+  - tau-release-desktop
+  - tau-plymouth
+  - tau-helium
+  - tau-dash-to-dock
+  - tau-hydrogen
+  - tau-manrope-fonts 
+  - tau-notification-manager
+  - tau-top-bar
+  - tau-gsettings-schemas
+  - xdg-desktop-portal-gnome-tau
+exclude-packages:
+  - xdg-desktop-portal-gnome

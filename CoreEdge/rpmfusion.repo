@@ -1,0 +1,15 @@
+[rpmfusion-free]
+name=RPM Fusion for tauOS 1.1 - Free
+#baseurl=http://download1.rpmfusion.org/free/fedora/development/$basearch/os/
+metalink=https://mirrors.rpmfusion.org/metalink?repo=free-fedora-rawhide&arch=$basearch
+enabled=0
+gpgcheck=0
+metadata_expire=1
+
+[rpmfusion-nonfree]
+name=RPM Fusion for tauOS 1.1 - Nonfree
+#baseurl=http://download1.rpmfusion.org/nonfree/fedora/development/$basearch/os/
+metalink=https://mirrors.rpmfusion.org/metalink?repo=nonfree-fedora-rawhide&arch=$basearch
+enabled=0
+gpgcheck=0
+metadata_expire=1d

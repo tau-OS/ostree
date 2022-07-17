@@ -1,0 +1,19 @@
+ref: tau/home/edge/${basearch}
+repos:
+  - base
+  - updates
+  - tau
+  - rpmfusion-free-updates
+  - rpmfusion-free
+  - rpmfusion-nonfree-updates
+  - rpmfusion-nonfree
+  - openh264
+  
+include:
+  - ../Common/Current/common.yaml
+  - ../Common/Current/hardware.yaml
+  - ../Common/Current/gnome.yaml
+  - ../Common/Current/fonts.yaml
+  - apps.yaml
+  - ../Common/Current/migrate-flatpak.yaml
+  - ../Common/Current/migrate-tauapp.yaml
