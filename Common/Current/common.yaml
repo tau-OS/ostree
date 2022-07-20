@@ -162,3 +162,4 @@ exclude-packages:
   - fedora-release-identity-basic
   - fedora-release-common
   - fedora-release-identity-workstation
+  - generic-release

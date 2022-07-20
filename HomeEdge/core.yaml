@@ -14,3 +14,7 @@ include:
   - apps.yaml
   - ../Common/Current/migrate-flatpak.yaml
   - ../Common/Current/migrate-tauapp.yaml
+
+exclude-packages:
+  - fedora-repos
+  - fedora-repos-modular
