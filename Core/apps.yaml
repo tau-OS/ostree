@@ -1,3 +1,4 @@
 packages:
   - nano
   - tau-release-core
+  - fedora-repos-modular
