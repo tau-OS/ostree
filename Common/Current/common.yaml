@@ -157,3 +157,8 @@ packages-aarch64:
   - grub2-efi-aa64
   - uboot-images-armv8
   - uboot-tools
+exclude-packages:
+  - fedora-release
+  - fedora-release-identity-basic
+  - fedora-release-common
+  - fedora-release-identity-workstation
