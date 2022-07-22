@@ -66,7 +66,6 @@ packages:
   - util-linux
   - vim-minimal
   - NetworkManager
-  - fedora-repos-modular
   - firewalld
   - plymouth
   - systemd-oomd-defaults
@@ -157,3 +156,9 @@ packages-aarch64:
   - grub2-efi-aa64
   - uboot-images-armv8
   - uboot-tools
+exclude-packages:
+  - fedora-release
+  - fedora-release-identity-basic
+  - fedora-release-common
+  - fedora-release-identity-workstation
+  - generic-release

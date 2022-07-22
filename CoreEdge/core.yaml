@@ -1,0 +1,11 @@
+ref: tau/core/edge/${basearch}
+repos:
+  - base
+  - tau
+  - rpmfusion-free
+  - rpmfusion-nonfree
+  - openh264
+include:
+  - ../Common/Current/common.yaml
+  - ../Common/Current/hardware.yaml
+  - apps.yaml

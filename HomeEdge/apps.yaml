@@ -17,6 +17,5 @@ packages:
   - tau-top-bar
   - tau-gsettings-schemas
   - xdg-desktop-portal-gnome-tau
-  - fedora-repos-modular
 exclude-packages:
   - xdg-desktop-portal-gnome
