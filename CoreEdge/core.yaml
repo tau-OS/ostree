@@ -6,6 +6,6 @@ repos:
   - rpmfusion-nonfree
   - openh264
 include:
-  - ../Common/Current/common.yaml
-  - ../Common/Current/hardware.yaml
+  - ../Common/Edge/common.yaml
+  - ../Common/Edge/hardware.yaml
   - apps.yaml

@@ -7,13 +7,13 @@ repos:
   - openh264
   
 include:
-  - ../Common/Current/common.yaml
-  - ../Common/Current/hardware.yaml
-  - ../Common/Current/gnome.yaml
-  - ../Common/Current/fonts.yaml
+  - ../Common/Edge/common.yaml
+  - ../Common/Edge/hardware.yaml
+  - ../Common/Edge/gnome.yaml
+  - ../Common/Edge/fonts.yaml
   - apps.yaml
-  - ../Common/Current/migrate-flatpak.yaml
-  - ../Common/Current/migrate-tauapp.yaml
+  - ../Common/Edge/migrate-flatpak.yaml
+  - ../Common/Edge/migrate-tauapp.yaml
 
 exclude-packages:
   - fedora-repos
