@@ -20,5 +20,3 @@ packages:
   - opensc
   - pcsc-lite
   - pcsc-lite-ccid
-packages-aarch64:
-  - bcm283x-firmware

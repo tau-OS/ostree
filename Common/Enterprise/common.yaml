@@ -145,8 +145,6 @@ packages-x86_64:
   - grub2-efi-x64
 packages-aarch64:
   - grub2-efi-aa64
-  - uboot-images-armv8
-  - uboot-tools
 exclude-packages:
   - centos-logos
   - centos-release
