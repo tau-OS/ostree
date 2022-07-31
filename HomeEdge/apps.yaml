@@ -19,3 +19,5 @@ packages:
   - xdg-desktop-portal-gnome-tau
 exclude-packages:
   - xdg-desktop-portal-gnome
+  - evince-nautilus
+  - libproxy-webkitgtk4
