@@ -1,6 +1,0 @@
-packages:
-  - nano
-  - tau-release-server
-exclude-packages:
-  - x264
-  - x264-libs

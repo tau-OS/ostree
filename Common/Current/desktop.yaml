@@ -1,0 +1,3 @@
+groups:
+  - id: guest-desktop-agents
+  - id: base-x
