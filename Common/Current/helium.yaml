@@ -32,8 +32,3 @@ packages:
 exclude-packages:
   - xdg-desktop-portal-gnome
   - gnome-control-center
-  - PackageKit-command-not-found
-  - PackageKit-gstreamer-plugin
-  - PackageKit-gtk3-module
-  - gnome-backgrounds
-  - gnome-connections
