@@ -4,10 +4,18 @@ groups:
     # seems like a comps format or libdnf issue
     blacklist:
       - bcm283x-firmware
+      - cmospwd
+      - intel-media-driver
+      - libva-intel-driver
   - id: server-hardware-support
 
 # TODO: Add NVIDIA and other proprietary hardware here
 packages: []
+
+packages-x86_64:
+  - cmospwd
+  - intel-media-driver
+  - libva-intel-driver
 
 packages-aarch64:
   - bcm283x-firmware

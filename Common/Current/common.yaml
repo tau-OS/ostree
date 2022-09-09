@@ -18,7 +18,7 @@ check-groups:
   filename: group
 default_target: graphical.target
 postprocess-script: post.sh
-# ima: true
+ima: true
 groups:
   - id: core
     blacklist:
@@ -36,6 +36,9 @@ groups:
       - at
       - deltarpm
       - psacct
+      # TODO: See hardware.yaml
+      - mcelog
+      - microcode_ctl
   - id: cloud-bootloader-tools
   - id: workstation-ostree-support
   - id: guest-agents
@@ -62,6 +65,10 @@ packages:
   - tau-logos
   - tau-logos-httpd
   - tau-plymouth
+
+packages-x86_64:
+  - mcelog
+  - microcode_ctl
 
 exclude-packages:
   - fedora-release
