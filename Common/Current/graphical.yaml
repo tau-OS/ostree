@@ -1,6 +1,6 @@
 groups:
   - id: guest-desktop-agents
-    backlist:
+    blacklist:
       - virtualbox-guest-additions
   - id: base-x
     # TODO: see hardware.yaml
