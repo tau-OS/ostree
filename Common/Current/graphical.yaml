@@ -14,6 +14,9 @@ groups:
     optional: false
   - id: multimedia
 
+packages:
+  - glibc-all-langpacks
+
 packages-aarch64:
   - xorg-x11-drv-armsoc
 
