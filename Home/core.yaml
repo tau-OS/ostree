@@ -8,12 +8,15 @@ repos:
   - rpmfusion-nonfree-updates
   - rpmfusion-nonfree
   - openh264
-  
+
 include:
   - ../Common/Current/common.yaml
   - ../Common/Current/hardware.yaml
-  - ../Common/Current/gnome.yaml
-  - ../Common/Current/fonts.yaml
-  - apps.yaml
-  - ../Common/Current/migrate-flatpak.yaml
-  - ../Common/Current/migrate-tauapp.yaml
+  - ../Common/Current/graphical.yaml
+  - ../Common/Current/helium.yaml
+
+packages:
+  - distrobox
+  - chromium-freeworld
+  - starship
+  - tau-release-desktop

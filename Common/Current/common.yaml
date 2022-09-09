@@ -61,6 +61,7 @@ packages:
   - tau-gpg-keys
   - tau-logos
   - tau-logos-httpd
+  - tau-plymouth
 
 exclude-packages:
   - fedora-release

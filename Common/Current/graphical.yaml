@@ -1,0 +1,12 @@
+groups:
+  - id: guest-desktop-agents
+  - id: base-x
+    # TODO: see hardware.yaml
+    blacklist:
+      - xorg-x11-drv-armsoc
+  - id: fonts
+    optional: false
+  - id: multimedia
+
+packages-aarch64:
+  - xorg-x11-drv-armsoc
