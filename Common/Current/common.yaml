@@ -18,144 +18,58 @@ check-groups:
   filename: group
 default_target: graphical.target
 postprocess-script: post.sh
+ima: true
+groups:
+  - id: core
+    blacklist:
+      - dnf
+      - dnf-plugins-core
+      - yum
+      - grubby
+      - grubby-deprecated
+      - initial-setup
+      - dracut-config-rescue
+  - id: standard
+    blacklist:
+      - abrt-cli
+      - crontabs
+      - at
+      - deltarpm
+      - psacct
+      # TODO: See hardware.yaml
+      - mcelog
+      - microcode_ctl
+  - id: cloud-bootloader-tools
+  - id: workstation-ostree-support
+  - id: guest-agents
+
 packages:
+  # Linux
+  - kernel
+  - kernel-modules
+  - kernel-modules-extra
+  # Utilities
   - lvm2
   - podman
   - podman-docker
   - git
-  - nss-altfiles
+  # Boot (TODO: Switch to systemd-boot)
+  - bootupd
   - grub2
-  - ostree-grub2
-  - efibootmgr
-  - rpm-ostree
-  - tau-logos
-  - tau-logos-httpd
-  - kernel
-  - kernel-modules-extra
-  - audit
-  - basesystem
-  - bash
-  - coreutils
-  - curl
-  - dhcp-client
-  - e2fsprogs
-  - filesystem
-  - glibc
-  - hostname
-  - iproute
-  - iputils
-  - kbd
-  - less
-  - man-db
-  - openssh-clients
-  - openssh-server
-  - parted
-  - passwd
-  - policycoreutils
-  - procps-ng
-  - rootfiles
-  - rpm
-  - selinux-policy-targeted
-  - setup
-  - shadow-utils
-  - sssd-common
-  - plymouth-plugin-script
-  - sssd-kcm
-  - sudo
-  - systemd
-  - util-linux
-  - vim-minimal
-  - NetworkManager
-  - firewalld
-  - plymouth
-  - systemd-oomd-defaults
-  - systemd-resolved
-  - zram-generator-defaults
-  - dracut-config-generic
-  - initscripts
-  - acl
-  - attr
-  - bash-completion
-  - bc
-  - bind-utils
-  - btrfs-progs
-  - bzip2
-  - cifs-utils
-  - compsize
-  - cpio
-  - cryptsetup
-  - cyrus-sasl-plain
-  - dbus
-  - default-editor
-  - dos2unix
-  - dosfstools
-  - ed
-  - ethtool
-  - exfatprogs
-  - file
-  - fpaste
-  - gnupg2
-  - hunspell
-  - iptstate
-  - irqbalance
-  - jwhois
-  - logrotate
-  - lsof
-  - man-pages
-  - mdadm
-  - mlocate
-  - mtr
-  - net-tools
-  - nfs-utils
-  - nmap-ncat
-  - ntfs-3g
-  - ntfsprogs
-  - opensc
-  - passwdqc
-  - pciutils
-  - pinfo
-  - quota
-  - realmd
-  - rsync
-  - rsyslog
-  - smartmontools
-  - sos
-  - sssd
-  - sudo
-  - symlinks
-  - systemd-udev
-  - tar
-  - tcpdump
-  - time
-  - traceroute
-  - tree
-  - unzip
-  - usbutils
-  - util-linux-user
-  - wget
-  - which
-  - words
-  - zip
   - shim
-  - efibootmgr
-  - x264
-  - x264-libs
-  - mozilla-openh264
-  - gstreamer1-plugin-openh264
-  - openh264
-  - sl
+  # tauOS Specific Packages
   - tau-release
   - tau-repos
   - tau-repos-ostree
   - tau-gpg-keys
+  - tau-logos
+  - tau-logos-httpd
+  - tau-plymouth
+
 packages-x86_64:
   - mcelog
   - microcode_ctl
-  - grub2-efi-x64
-packages-aarch64:
-  - grub2-efi-aa64
-  - uboot-images-armv8
-  - uboot-tools
+
 exclude-packages:
   - fedora-release
   - fedora-release-identity-basic

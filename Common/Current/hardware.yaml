@@ -1,44 +1,23 @@
-packages:
-  - atmel-firmware
-  - b43-fwcutter
-  - b43-openfwwf
-  - iwl100-firmware
-  - iwl1000-firmware
-  - iwl105-firmware
-  - iwl135-firmware
-  - iwl2000-firmware
-  - iwl2030-firmware
-  - iwl3160-firmware
-  - iwl3945-firmware
-  - iwl4965-firmware
-  - iwl5000-firmware
-  - iwl5150-firmware
-  - iwl6000-firmware
-  - iwl6000g2a-firmware
-  - iwl6000g2b-firmware
-  - iwl6050-firmware
-  - iwl7260-firmware
-  - iwlax2xx-firmware
-  - libertas-usb8388-firmware
-  - usb_modeswitch
-  - zd1211-firmware
-  - acpi
-  - acpitool
-  - alsa-firmware
-  - gpsd
-  - hddtemp
-  - hdparm
-  - iscan-firmware
-  - libifp
-  - liquidio-firmware
-  - lsscsi
-  - mrvlprestera-firmware
-  - multican
-  - netronome-firmware
-  - opensc
-  - pcsc-lite
-  - pcsc-lite-ccid
-  - radeontop
-  - wpan-tools
+groups:
+  - id: hardware-support
+    # TODO: For some reaason, even though other arch only packages get filtered out by melody, it doesn't do this one
+    # seems like a comps format or libdnf issue
+    blacklist:
+      - bcm283x-firmware
+      - cmospwd
+      - intel-media-driver
+      - libva-intel-driver
+      - broadcom-wl
+  - id: server-hardware-support
+
+# TODO: Add NVIDIA and other proprietary hardware here
+packages: []
+
+packages-x86_64:
+  - cmospwd
+  - intel-media-driver
+  - libva-intel-driver
+  - broadcom-wl
+
 packages-aarch64:
   - bcm283x-firmware
