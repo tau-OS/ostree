@@ -1,12 +1,25 @@
 groups:
   - id: guest-desktop-agents
+    backlist:
+      - virtualbox-guest-additions
   - id: base-x
     # TODO: see hardware.yaml
     blacklist:
       - xorg-x11-drv-armsoc
+      - xorg-x11-drv-intel
+      - xorg-x11-drv-openchrome
+      - xorg-x11-drv-vesa
+      - xorg-x11-drv-vmware
   - id: fonts
     optional: false
   - id: multimedia
 
 packages-aarch64:
   - xorg-x11-drv-armsoc
+
+packages-x86_64:
+  - xorg-x11-drv-intel
+  - xorg-x11-drv-openchrome
+  - xorg-x11-drv-vesa
+  - xorg-x11-drv-vmware
+  - virtualbox-guest-additions
