@@ -1,6 +1,6 @@
 groups:
   - id: gnome-desktop
-    backlist:
+    blacklist:
       - PackageKit-command-not-found
       - PackageKit-gtk3-module
       - xdg-desktop-portal-gnome
@@ -8,6 +8,7 @@ groups:
       - gnome-boxes
       - gnome-connections
       - gnome-control-center
+      - evince-nautilus
     optional: false
 
 # TODO: Migrate core GNOME apps to preinstalled flatpak
@@ -31,5 +32,4 @@ packages:
 
 exclude-packages:
   - xdg-desktop-portal-gnome
-  - gnome-control-center
-  - evince-nautilus
+  - gnome-control-center 

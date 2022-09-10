@@ -1,6 +1,6 @@
 groups:
   - id: gnome-desktop
-    backlist:
+    blacklist:
       - PackageKit-command-not-found
       - PackageKit-gtk3-module
       - xdg-desktop-portal-gnome
