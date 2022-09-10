@@ -32,3 +32,4 @@ packages:
 exclude-packages:
   - xdg-desktop-portal-gnome
   - gnome-control-center
+  - evince-nautilus
