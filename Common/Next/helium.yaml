@@ -12,7 +12,6 @@ groups:
     optional: false
 
 # TODO: Migrate core GNOME apps to preinstalled flatpak
-  #Figuring out
 
 packages:
   - gnome-tweaks
