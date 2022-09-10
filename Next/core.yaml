@@ -1,0 +1,23 @@
+ref: tau/next/${basearch}
+repos:
+  - base
+  - updates
+  - tau
+  - rpmfusion-free-updates
+  - rpmfusion-free
+  - rpmfusion-nonfree-updates
+  - rpmfusion-nonfree
+  - openh264
+
+include:
+  - ../Common/Next/common.yaml
+  - ../Common/Next/hardware.yaml
+  - ../Common/Next/graphical.yaml
+  - ../Common/Next/helium.yaml
+
+packages:
+  - distrobox
+  - chromium-freeworld
+  - starship
+  - tau-release-desktop
+  - tau-starship

@@ -1,0 +1,24 @@
+groups:
+  - id: hardware-support
+    # TODO: For some reaason, even though other arch only packages get filtered out by melody, it doesn't do this one
+    # seems like a comps format or libdnf issue
+    blacklist:
+      - bcm283x-firmware
+      - cmospwd
+      - intel-media-driver
+      - libva-intel-driver
+      - broadcom-wl
+  - id: server-hardware-support
+
+# TODO: Add NVIDIA and other proprietary hardware here
+  # This is a very hacky solution and I honestly think we could figure out how to make the installer do this -jr
+packages: []
+
+packages-x86_64:
+  - cmospwd
+  - intel-media-driver
+  - libva-intel-driver
+  - broadcom-wl
+
+packages-aarch64:
+  - bcm283x-firmware

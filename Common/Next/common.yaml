@@ -1,0 +1,79 @@
+boot-location: modules
+selinux: true
+cliwrap: true
+readonly-executables: true
+tmp-is-dir: true
+releasever: "37"
+etc-group-members:
+  - wheel
+ignore-removed-users:
+  - root
+ignore-removed-groups:
+  - root
+check-passwd:
+  type: file
+  filename: passwd
+check-groups:
+  type: file
+  filename: group
+default_target: graphical.target
+postprocess-script: post.sh
+ima: true
+groups:
+  - id: core
+    blacklist:
+      - dnf
+      - dnf-plugins-core
+      - yum
+      - grubby
+      - grubby-deprecated
+      - initial-setup
+      - dracut-config-rescue
+  - id: standard
+    blacklist:
+      - abrt-cli
+      - crontabs
+      - at
+      - deltarpm
+      - psacct
+      # TODO: See hardware.yaml
+      - mcelog
+      - microcode_ctl
+  - id: cloud-bootloader-tools
+  - id: workstation-ostree-support
+  - id: guest-agents
+
+packages:
+  # Linux
+  - kernel
+  - kernel-modules
+  - kernel-modules-extra
+  # Utilities
+  - lvm2
+  - podman
+  - podman-docker
+  - git
+  # Boot (TODO: Switch to systemd-boot)
+    #systemd-boot may be a bit tricky -jr
+  - bootupd
+  - grub2
+  - shim
+  # tauOS Specific Packages
+  - tau-release
+  - tau-repos
+  - tau-repos-ostree
+  - tau-gpg-keys
+  - tau-logos
+  - tau-logos-httpd
+  - tau-plymouth
+
+packages-x86_64:
+  - mcelog
+  - microcode_ctl
+
+exclude-packages:
+  - fedora-release
+  - fedora-release-identity-basic
+  - fedora-release-common
+  - fedora-release-identity-workstation
+  - generic-release

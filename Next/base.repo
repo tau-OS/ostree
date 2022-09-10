@@ -7,7 +7,7 @@ gpgcheck=0
 metadata_expire=1d
 
 [updates]
-name=tauOS 1.1 Home - Updates
+name=tauOS Next - Updates
 #baseurl=http://download.example/pub/fedora/linux/updates/37/Everything/$basearch/
 metalink=https://mirrors.fedoraproject.org/metalink?repo=updates-released-f37&arch=$basearch
 enabled=1
