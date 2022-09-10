@@ -10,6 +10,7 @@ groups:
       - xorg-x11-drv-openchrome
       - xorg-x11-drv-vesa
       - xorg-x11-drv-vmware
+      - plymouth-system-theme
   - id: fonts
     optional: false
   - id: multimedia
