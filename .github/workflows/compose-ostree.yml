@@ -10,7 +10,7 @@ jobs:
   compose:
     uses: tau-OS/github-actions/.github/workflows/ostree.yml@main
     with:
-      osVariant: '["Core", "Home"]'
+      osVariant: '["Core", "Home", "Next"]'
       unifiedCore: false
       gpgKeyID: 5D155AF6F77C8C9B
       upload: ${{ github.ref == 'refs/heads/main' }}
