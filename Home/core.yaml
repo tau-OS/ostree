@@ -13,6 +13,7 @@ include:
   - ../Common/Current/common.yaml
   - ../Common/Current/hardware.yaml
   - ../Common/Current/graphical.yaml
+  - ../Common/Current/printing.yaml
   - ../Common/Current/helium.yaml
 
 packages:
