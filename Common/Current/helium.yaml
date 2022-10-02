@@ -8,6 +8,7 @@ groups:
       - gnome-boxes
       - gnome-connections
       - gnome-control-center
+      - chrome-gnome-shell
     optional: false
 
 # TODO: Migrate core GNOME apps to preinstalled flatpak
