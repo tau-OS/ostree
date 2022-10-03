@@ -20,6 +20,6 @@ include:
 packages:
   - distrobox
   - chromium-freeworld
-  - rust-starship
+  - rust-starship-devel
   - tau-release-desktop
   - tau-starship
