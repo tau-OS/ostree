@@ -28,6 +28,13 @@ enabled=1
 gpgcheck=0
 metadata_expire=1d
 
+[ultramarine-updates]
+name=Ultramarine Linux 37 - Updates
+baseurl=https://lapis.ultramarine-linux.org/pub/ultramarine-updates/37/Everything/$basearch/os/
+enabled=1
+gpgcheck=0
+metadata_expire=1d
+
 [openh264]
 name=Cisco openh264
 metalink=https://mirrors.fedoraproject.org/metalink?repo=fedora-cisco-openh264-37&arch=$basearch
