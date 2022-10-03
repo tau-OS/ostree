@@ -7,7 +7,6 @@ groups:
       - gnome-backgrounds
       - gnome-boxes
       - gnome-connections
-      - gnome-control-center
       - evince-nautilus
     optional: false
 
@@ -28,7 +27,9 @@ packages:
   - tau-top-bar
   - tau-gsettings-schemas
   - xdg-desktop-portal-gnome-tau
-  - tau-settings
+  #- tau-settings
+  # temp fix
+  - gnome-control-center
 
 exclude-packages:
   - xdg-desktop-portal-gnome
