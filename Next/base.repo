@@ -21,19 +21,19 @@ enabled=1
 gpgcheck=0
 metadata_expire=1d
 
-[ultramarine]
-name=Ultramarine Linux 37 - Main
-baseurl=https://lapis.ultramarine-linux.org/pub/ultramarine/37/Everything/$basearch/os/
-enabled=0
-gpgcheck=0
-metadata_expire=1d
+#[ultramarine]
+#name=Ultramarine Linux 37 - Main
+#baseurl=https://lapis.ultramarine-linux.org/pub/ultramarine/37/Everything/$basearch/os/
+#enabled=1
+#gpgcheck=0
+#metadata_expire=1d
 
-[ultramarine-updates]
-name=Ultramarine Linux 37 - Updates
-baseurl=https://lapis.ultramarine-linux.org/pub/ultramarine-updates/37/Everything/$basearch/os/
-enabled=0
-gpgcheck=0
-metadata_expire=1d
+#[ultramarine-updates]
+#name=Ultramarine Linux 37 - Updates
+#baseurl=https://lapis.ultramarine-linux.org/pub/ultramarine-updates/37/Everything/$basearch/os/
+#enabled=1
+#gpgcheck=0
+#metadata_expire=1d
 
 [openh264]
 name=Cisco openh264
