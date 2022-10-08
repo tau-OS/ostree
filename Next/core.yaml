@@ -3,8 +3,8 @@ repos:
   - base
   - updates
   - tau
-  - ultramarine
-  - ultramarine-updates
+  # - ultramarine
+  # - ultramarine-updates
   - rpmfusion-free-updates
   - rpmfusion-free
   - rpmfusion-nonfree-updates
