@@ -3,8 +3,6 @@ repos:
   - base
   - updates
   - tau
-  # - ultramarine
-  # - ultramarine-updates
   - rpmfusion-free-updates
   - rpmfusion-free
   - rpmfusion-nonfree-updates
@@ -20,6 +18,6 @@ include:
 packages:
   - distrobox
   - chromium-freeworld
-  #- rust-starship-devel
+  - starship
   - tau-release-desktop
-  #- tau-starship
+  - tau-starship
