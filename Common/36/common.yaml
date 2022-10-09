@@ -3,7 +3,7 @@ selinux: true
 cliwrap: true
 readonly-executables: true
 tmp-is-dir: true
-releasever: "37"
+releasever: "36"
 etc-group-members:
   - wheel
 ignore-removed-users:
@@ -54,7 +54,6 @@ packages:
   - podman-docker
   - git
   # Boot (TODO: Switch to systemd-boot)
-    #systemd-boot may be a bit tricky -jr
   - bootupd
   - grub2
   - shim

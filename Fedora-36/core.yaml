@@ -1,4 +1,4 @@
-ref: tau/home/1/${basearch}
+ref: tau/f36/${basearch}
 repos:
   - base
   - updates
@@ -8,14 +8,13 @@ repos:
   - rpmfusion-nonfree-updates
   - rpmfusion-nonfree
   - openh264
-  - starship
 
 include:
-  - ../Common/Current/common.yaml
-  - ../Common/Current/hardware.yaml
-  - ../Common/Current/graphical.yaml
-  - ../Common/Current/printing.yaml
-  - ../Common/Current/helium.yaml
+  - ../Common/36/common.yaml
+  - ../Common/36/hardware.yaml
+  - ../Common/36/graphical.yaml
+  - ../Common/36/printing.yaml
+  - ../Common/36/helium.yaml
 
 packages:
   - distrobox

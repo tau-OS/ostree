@@ -7,7 +7,8 @@ groups:
       - gnome-backgrounds
       - gnome-boxes
       - gnome-connections
-      - evince-nautilus
+      - gnome-control-center
+      - chrome-gnome-shell
     optional: false
 
 # TODO: Migrate core GNOME apps to preinstalled flatpak
@@ -28,7 +29,6 @@ packages:
   - tau-gsettings-schemas
   - xdg-desktop-portal-gnome-tau
   - tau-settings
-  - gnome-control-center
 
 exclude-packages:
   - xdg-desktop-portal-gnome
