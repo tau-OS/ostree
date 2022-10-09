@@ -27,9 +27,8 @@ packages:
   - tau-top-bar
   - tau-gsettings-schemas
   - xdg-desktop-portal-gnome-tau
-  - tau-settings
   - gnome-control-center
 
 exclude-packages:
   - xdg-desktop-portal-gnome
-  - gnome-control-center
+  - tau-settings
