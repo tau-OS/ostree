@@ -8,6 +8,7 @@ repos:
   - rpmfusion-nonfree-updates
   - rpmfusion-nonfree
   - openh264
+  - starship
 
 include:
   - ../Common/Next/common.yaml
