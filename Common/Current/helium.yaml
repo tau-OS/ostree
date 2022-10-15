@@ -25,7 +25,7 @@ packages:
   - tau-manrope-fonts
   - tau-notification-manager
   - tau-top-bar
-  - tau-arcmenu
+  # - tau-arcmenu
   - tau-gsettings-schemas
   - xdg-desktop-portal-gnome-tau
   - tau-settings
