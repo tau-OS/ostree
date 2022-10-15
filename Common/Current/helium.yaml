@@ -8,6 +8,17 @@ groups:
       - gnome-boxes
       - gnome-connections
       - evince-nautilus
+      - baobab
+      - gnome-calculator
+      - gnome-calendar
+      - gnome-characters
+      - gnome-clocks
+      - gnome-contacts
+      - gnome-font-viewer
+      - gnome-maps
+      - gnome-photos
+      - gnome-weather
+      - cheese
     optional: false
 
 # TODO: Migrate core GNOME apps to preinstalled flatpak
