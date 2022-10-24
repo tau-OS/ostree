@@ -15,22 +15,18 @@ gpgcheck=0
 metadata_expire=1d
 
 [tau]
-name=tauOS 1 Home - Configuration
-baseurl=https://repo.tauos.co/releases/1
+name=tauOS 1 Home
+baseurl=https://repos.fyralabs.com/tau1
 enabled=1
 gpgcheck=0
 metadata_expire=1d
 
-[starship]
-name=COPR for Starship - Provided by Aitm
-baseurl=https://download.copr.fedorainfracloud.org/results/atim/starship/fedora-$releasever-$basearch/
-type=rpm-md
-skip_if_unavailable=True
-gpgcheck=1
-gpgkey=https://download.copr.fedorainfracloud.org/results/atim/starship/pubkey.gpg
-repo_gpgcheck=0
+[terra]
+name=Terra 37
+baseurl=https://repos.fyralabs.com/terra37
 enabled=1
-enabled_metadata=1
+gpgcheck=0
+metadata_expire=1d
 
 [openh264]
 name=Cisco openh264
