@@ -3,6 +3,7 @@ repos:
   - base
   - updates
   - tau
+  - terra
   - rpmfusion-free-updates
   - rpmfusion-free
   - rpmfusion-nonfree-updates
