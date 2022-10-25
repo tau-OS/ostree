@@ -16,10 +16,22 @@ metadata_expire=1d
 
 [tau]
 name=tauOS 1 Home - Configuration
-baseurl=https://repo.tauos.co/releases/1
+baseurl=https://repos.fyralabs.com/tau1/
 enabled=1
 gpgcheck=0
 metadata_expire=1d
+
+[terra]
+name=Terra Packages
+baseurl=https://repos.fyralabs.com/terra37/
+type=rpm
+skip_if_unavailable=True
+gpgcheck=1
+enabled=1
+gpgkey=https://repos.fyralabs.com/terra37/key.asc
+repo_gpgcheck=0
+enabled_metadata=0
+
 
 [openh264]
 name=Cisco openh264

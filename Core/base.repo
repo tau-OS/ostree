@@ -15,18 +15,23 @@ gpgcheck=0
 metadata_expire=1d
 
 [tau]
-name=tauOS 1 Core
-baseurl=https://repos.fyralabs.com/tau1
+name=tauOS 1 Home - Configuration
+baseurl=https://repos.fyralabs.com/tau1/
 enabled=1
 gpgcheck=0
 metadata_expire=1d
 
 [terra]
-name=Terra 37
-baseurl=https://repos.fyralabs.com/terra37
+name=Terra Packages
+baseurl=https://.fyralabs.com/terra37/
+type=rpm
+skip_if_unavailable=True
+gpgcheck=1
 enabled=1
-gpgcheck=0
-metadata_expire=1d
+gpgkey=https://.fyralabs.com/terra37/key.asc
+repo_gpgcheck=0
+enabled_metadata=0
+
 
 [openh264]
 name=Cisco openh264
