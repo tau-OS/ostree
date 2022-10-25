@@ -23,12 +23,12 @@ metadata_expire=1d
 
 [terra]
 name=Terra Packages
-baseurl=https://.fyralabs.com/terra37/
+baseurl=https://repos.fyralabs.com/terra37/
 type=rpm
 skip_if_unavailable=True
 gpgcheck=1
 enabled=1
-gpgkey=https://.fyralabs.com/terra37/key.asc
+gpgkey=https://repos.fyralabs.com/terra37/key.asc
 repo_gpgcheck=0
 enabled_metadata=0
 
