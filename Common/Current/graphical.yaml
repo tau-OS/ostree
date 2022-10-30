@@ -24,6 +24,8 @@ packages:
 
 packages-aarch64:
   - xorg-x11-drv-armsoc
+    # Needed for geolocalization purposes
+  - geoclue2
 
 packages-x86_64:
   - xorg-x11-drv-intel
@@ -31,3 +33,5 @@ packages-x86_64:
   - xorg-x11-drv-vesa
   - xorg-x11-drv-vmware
   - virtualbox-guest-additions
+    # Needed for geolocalization purposes
+  - geoclue2
