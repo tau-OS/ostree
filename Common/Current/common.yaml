@@ -77,4 +77,3 @@ exclude-packages:
   - fedora-release-common
   - fedora-release-identity-workstation
   - generic-release
-  - gpsd-clients
