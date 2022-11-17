@@ -21,8 +21,6 @@ packages:
   - dejavu-sans-fonts
   - dejavu-sans-mono-fonts
   - dejavu-serif-fonts
-  # Multimedia doesn't pull in these
-  - gstreamer-ffmpeg
 
 packages-aarch64:
   - xorg-x11-drv-armsoc
