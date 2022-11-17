@@ -11,8 +11,10 @@ groups:
   - id: server-hardware-support
 
 # TODO: Add NVIDIA and other proprietary hardware here
-  # This is a very hacky solution and I honestly think we could figure out how to make the installer do this -jr
-packages: []
+# This is a very hacky solution and I honestly think we could figure out how to make the installer do this -jr
+packages:
+  - mesa-va-drivers-freeworld
+  - mesa-vdpau-drivers-freeworld
 
 packages-x86_64:
   - cmospwd
