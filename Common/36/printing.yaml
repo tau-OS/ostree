@@ -1,7 +1,0 @@
-groups:
-  - id: printing
-    # There are some junk packages (printing related CLIs, and a GUI) in the optional packages for this group. 
-    blacklist:
-      - a2ps
-      - enscript
-      - system-config-printer
