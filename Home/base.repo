@@ -28,7 +28,7 @@ gpgcheck=1
 enabled=1
 gpgkey=https://repos.fyralabs.com/terra37/key.asc
 repo_gpgcheck=0
-enabled_metadata=0
+metadata_expire=1d
 
 [openh264]
 name=Cisco openh264
