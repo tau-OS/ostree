@@ -40,7 +40,6 @@ packages:
   - tau-gsettings-schemas
   - xdg-desktop-portal-gnome-tau
   - tau-settings # comment this when fusebox is done
-  - fusebox
 
 exclude-packages:
   - xdg-desktop-portal-gnome
