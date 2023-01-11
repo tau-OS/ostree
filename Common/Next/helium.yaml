@@ -14,6 +14,9 @@ packages:
   - fusebox
   - budgie-desktop
   - slick-greeter
+  - dbus-x11
+  - nautilus
+  - flatpak
   - tumbler
   - tumbler-extras
 
