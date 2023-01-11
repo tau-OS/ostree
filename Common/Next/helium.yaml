@@ -12,7 +12,6 @@ packages:
   - libbismuth-devel
   - fusebox
   - budgie-desktop
-  - budige-screensaver
 
 exclude-packages:
   - xdg-desktop-portal-gnome
