@@ -1,26 +1,3 @@
-groups:
-  - id: budgie-desktop
-    blacklist:
-      - PackageKit-command-not-found
-      - PackageKit-gtk3-module
-      - xdg-desktop-portal-gnome
-      - gnome-backgrounds
-      - gnome-boxes
-      - gnome-connections
-      - evince-nautilus
-      - baobab
-      - gnome-calculator
-      - gnome-calendar
-      - gnome-characters
-      - gnome-clocks
-      - gnome-contacts
-      - gnome-font-viewer
-      - gnome-maps
-      - gnome-photos
-      - gnome-weather
-      - cheese
-    optional: false
-
 # TODO: Migrate core GNOME apps to preinstalled flatpak
 
 packages:
@@ -34,7 +11,27 @@ packages:
   - tau-settings # comment this when fusebox is done
   - libbismuth-devel
   - fusebox
+  - budgie-desktop
+  - budige-screensaver
 
 exclude-packages:
   - xdg-desktop-portal-gnome
   - gnome-control-center
+  - PackageKit-command-not-found
+  - PackageKit-gtk3-module
+  - xdg-desktop-portal-gnome
+  - gnome-backgrounds
+  - gnome-boxes
+  - gnome-connections
+  - evince-nautilus
+  - baobab
+  - gnome-calculator
+  - gnome-calendar
+  - gnome-characters
+  - gnome-clocks
+  - gnome-contacts
+  - gnome-font-viewer
+  - gnome-maps
+  - gnome-photos
+  - gnome-weather
+  - cheese
