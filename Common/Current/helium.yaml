@@ -39,9 +39,12 @@ packages:
   # - tau-arcmenu
   - tau-gsettings-schemas
   - xdg-desktop-portal-gnome-tau
-  - tau-settings # comment this when fusebox is done
+  - tau-settings # remove this when fusebox is done
   - libbismuth-devel
+  - libhelium-devel
   - fusebox
+  - tumbler
+  - tumbler-extras
 
 exclude-packages:
   - xdg-desktop-portal-gnome
