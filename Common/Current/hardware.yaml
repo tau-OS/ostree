@@ -16,6 +16,9 @@ packages:
   - mesa-va-drivers-freeworld
   - mesa-vdpau-drivers-freeworld
 
+exclude-packages:
+  - mesa-va-drivers
+
 packages-x86_64:
   - cmospwd
   - intel-media-driver
