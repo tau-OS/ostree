@@ -1,4 +1,4 @@
-ref: tau/next/1/${basearch}
+ref: tau/home/1/${basearch}
 repos:
   - base
   - updates
@@ -11,11 +11,11 @@ repos:
   - openh264
 
 include:
-  - ../Common/Next/common.yaml
-  - ../Common/Next/hardware.yaml
-  - ../Common/Next/graphical.yaml
-  - ../Common/Next/printing.yaml
-  - ../Common/Next/helium.yaml
+  - ../Common/Current/common.yaml
+  - ../Common/Current/hardware.yaml
+  - ../Common/Current/graphical.yaml
+  - ../Common/Current/printing.yaml
+  - ../Common/Current/helium.yaml
 
 packages:
   - distrobox
