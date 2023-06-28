@@ -40,7 +40,7 @@ packages:
   - tau-gsettings-schemas
   - xdg-desktop-portal-gnome-tau
   - tau-settings # remove this when fusebox is done
-  - libbismuth-devel
+  - #libbismuth-devel
   - libhelium-devel
   - fusebox
   - tumbler

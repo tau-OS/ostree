@@ -19,7 +19,7 @@ include:
 
 packages:
   - distrobox
-  - chromium-freeworld
+  - chromium
   - starship
   - tau-release-desktop
   - tau-starship
